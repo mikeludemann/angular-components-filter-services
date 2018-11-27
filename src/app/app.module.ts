@@ -6,6 +6,9 @@ import { HttpModule } from '@angular/http';
 /* Components */
 import { AppComponent } from './app.component';
 
+/* Services */
+import { CalculateService } from './services/calculate.service';
+
 /* Pipes */
 import { IsArrayPipe } from './pipes/boolean/is-array.pipe';
 import { IsDefinedPipe } from './pipes/boolean/is-defined.pipe';
@@ -40,6 +43,8 @@ import { HyperbolicCosinePipe } from './pipes/math/hyperbolic-cosine.pipe';
 import { HyperbolicSinPipe } from './pipes/math/hyperbolic-sin.pipe';
 import { HyperbolicTangantPipe } from './pipes/math/hyperbolic-tangant.pipe';
 import { LogarithmPipe } from './pipes/math/logarithm.pipe';
+import { MinPipe } from './pipes/math/min.pipe';
+import { MaxPipe } from './pipes/math/max.pipe';
 import { PercentagePipe } from './pipes/math/percentage.pipe';
 import { PowPipe } from './pipes/math/pow.pipe';
 import { CeilPipe } from './pipes/math/ceil.pipe';
@@ -53,11 +58,14 @@ import { SumPipe } from './pipes/math/sum.pipe';
 import { RadiansPipe } from './pipes/math/radians.pipe';
 import { DegreesPipe } from './pipes/math/degrees.pipe';
 import { RadixPipe } from './pipes/math/radix.pipe';
+import { InvertPipe } from './pipes/object/invert.pipe';
+import { KeysPipe } from './pipes/object/keys.pipe';
+import { ValuesPipe } from './pipes/object/values.pipe';
 import { MatchPipe } from './pipes/regular_expression/match.pipe';
 import { TestPipe } from './pipes/regular_expression/test.pipe';
-
-/* Services */
-import { CalculateService } from './services/calculate.service'
+import { CamelizePipe } from './pipes/string/camelize.pipe';
+import { EndsWithPipe } from './pipes/string/ends-with.pipe';
+import { LatinizePipe } from './pipes/string/latinize.pipe';
 
 @NgModule({
   declarations: [
@@ -110,7 +118,15 @@ import { CalculateService } from './services/calculate.service'
     DegreesPipe,
     RadixPipe,
     MatchPipe,
-    TestPipe
+    TestPipe,
+    MinPipe,
+    MaxPipe,
+    InvertPipe,
+    KeysPipe,
+    ValuesPipe,
+    CamelizePipe,
+    EndsWithPipe,
+    LatinizePipe
   ],
   imports: [
     BrowserModule,

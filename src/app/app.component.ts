@@ -9,7 +9,10 @@ import { CalculateService } from './services/calculate.service'
 export class AppComponent {
   title = 'Test Environment for Components, Filter and Services';
   name = "hello test";
-  test = 1;
+  array = [1,2,3,4,7,8,9];
+  object = {a:3,b:2};
+  test = "1,2,3,4"
+
   sum: number = 0;
 
   constructor(calculate:CalculateService){
