@@ -66,6 +66,25 @@ import { TestPipe } from './pipes/regular_expression/test.pipe';
 import { CamelizePipe } from './pipes/string/camelize.pipe';
 import { EndsWithPipe } from './pipes/string/ends-with.pipe';
 import { LatinizePipe } from './pipes/string/latinize.pipe';
+import { LefttrimPipe } from './pipes/string/lefttrim.pipe';
+import { LowerPipe } from './pipes/string/lower.pipe';
+import { LowercaseFirstPipe } from './pipes/string/lowercase-first.pipe';
+import { RepeatPipe } from './pipes/string/repeat.pipe';
+import { ReversePipe } from './pipes/string/reverse.pipe';
+import { RighttrimPipe } from './pipes/string/righttrim.pipe';
+import { SlugifyPipe } from './pipes/string/slugify.pipe';
+import { SplitPipe } from './pipes/string/split.pipe';
+import { StartsWithPipe } from './pipes/string/starts-with.pipe';
+import { StringularPipe } from './pipes/string/stringular.pipe';
+import { StriptagsPipe } from './pipes/string/striptags.pipe';
+import { TitleizePipe } from './pipes/string/titleize.pipe';
+import { TrimPipe } from './pipes/string/trim.pipe';
+import { TruncatePipe } from './pipes/string/truncate.pipe';
+import { UpperPipe } from './pipes/string/upper.pipe';
+import { UppercaseFirstPipe } from './pipes/string/uppercase-first.pipe';
+import { UriComponentEncodePipe } from './pipes/string/uri-component-encode.pipe';
+import { UriEncodePipe } from './pipes/string/uri-encode.pipe';
+import { WrapPipe } from './pipes/string/wrap.pipe';
 
 @NgModule({
   declarations: [
@@ -126,7 +145,26 @@ import { LatinizePipe } from './pipes/string/latinize.pipe';
     ValuesPipe,
     CamelizePipe,
     EndsWithPipe,
-    LatinizePipe
+    LatinizePipe,
+    LefttrimPipe,
+    LowerPipe,
+    LowercaseFirstPipe,
+    RepeatPipe,
+    ReversePipe,
+    RighttrimPipe,
+    SlugifyPipe,
+    SplitPipe,
+    StartsWithPipe,
+    StringularPipe,
+    StriptagsPipe,
+    TitleizePipe,
+    TrimPipe,
+    TruncatePipe,
+    UpperPipe,
+    UppercaseFirstPipe,
+    UriComponentEncodePipe,
+    UriEncodePipe,
+    WrapPipe
   ],
   imports: [
     BrowserModule,
