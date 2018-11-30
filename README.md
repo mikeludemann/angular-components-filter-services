@@ -20,13 +20,13 @@ TBD
 
 |Boolean            |Math               |Object             |Regular Expression |String             |Utilities          |
 |-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|
-|isArray            |abs                |invert             |match              |camelize           |                   |
-|isDefined          |arccosine          |keys               |test               |endsWith           |                   |
-|isEmpty            |arcsine            |values             |                   |latinize           |                   |
-|isEmptyDimension   |arctangant         |                   |                   |lefttrim           |                   |
-|isEqualType        |arctangantquotient |                   |                   |lower              |                   |
-|isEqual            |ceil               |                   |                   |lowercaseFirst     |                   |
-|isFunction         |cosine             |                   |                   |repeat             |                   |
+|isArray            |abs                |invert             |match              |camelize           |after              |
+|isDefined          |arccosine          |keys               |test               |endsWith           |afterWhere         |
+|isEmpty            |arcsine            |values             |                   |latinize           |before             |
+|isEmptyDimension   |arctangant         |                   |                   |lefttrim           |beforeWhere        |
+|isEqualType        |arctangantquotient |                   |                   |lower              |chunkBy            |
+|isEqual            |ceil               |                   |                   |lowercaseFirst     |concat             |
+|isFunction         |cosine             |                   |                   |repeat             |contains           |
 |isGreaterEqual     |cubicRoot          |                   |                   |reverse            |                   |
 |isGreater          |degrees            |                   |                   |righttrim          |                   |
 |isLessEqual        |euler              |                   |                   |slugify            |                   |
@@ -71,9 +71,9 @@ TBD
 
 ### Enum 
 
-|Direction|Status   |FileAccess|
-|---------|---------|----------|
-|UP       |YES      |None      |
-|DOWN     |NO       |Read      |
-|LEFT     |         |Write     |
-|RIGHT    |         |ReadWrite |
+|Direction|Status   |FileAccess|Port      |MediaType |
+|---------|---------|----------|----------|----------|
+|UP       |YES      |None      |HTTP      |JSON      |
+|DOWN     |NO       |Read      |HTTPS     |XML       |
+|LEFT     |         |Write     |          |... TBD   |
+|RIGHT    |         |ReadWrite |          |          |

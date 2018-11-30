@@ -9,9 +9,11 @@ import { CalculateService } from './services/calculate.service'
 export class AppComponent {
   title = 'Test Environment for Components, Filter and Services';
   name = "hello test";
-  array = [1,2,3,4,7,8,9];
-  object = {a:3,b:2};
+  array = [ {a: 1}, {a: 2} ];
+  array2 = [ 1,2,3,4 ];
+  object = {1:{a:3},2:{a:4}};
   test = "1,2,3,4"
+  list = [{id:3,test:"actual"},{id:2,test:"old"},{id:1,test:"old"},{id:4,test:"old"}];
 
   sum: number = 0;
 

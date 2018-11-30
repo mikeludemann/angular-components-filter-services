@@ -3,9 +3,12 @@
 </h1>
 <div id="filter">
   <h2>Filter</h2>
-  <p>Test: {{name | split: ""}}</p>
-  <p>Test: {{object | keys}}</p>
-  <p>Test: {{object | values}}</p>
+  <p *ngIf="array2| contains:5">true</p>
+  <ol>
+    <li *ngFor="let x of list | beforeWhere:{id:2}">
+      {{x.test}}
+    </li>
+  </ol>
 </div>
 <div id="services">
   <h2>Services</h2>

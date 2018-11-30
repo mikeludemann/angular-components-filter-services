@@ -85,6 +85,13 @@ import { UppercaseFirstPipe } from './pipes/string/uppercase-first.pipe';
 import { UriComponentEncodePipe } from './pipes/string/uri-component-encode.pipe';
 import { UriEncodePipe } from './pipes/string/uri-encode.pipe';
 import { WrapPipe } from './pipes/string/wrap.pipe';
+import { AfterPipe } from './pipes/utilities/after.pipe';
+import { AfterWherePipe } from './pipes/utilities/after-where.pipe';
+import { BeforePipe } from './pipes/utilities/before.pipe';
+import { BeforeWherePipe } from './pipes/utilities/before-where.pipe';
+import { ChunkByPipe } from './pipes/utilities/chunk-by.pipe';
+import { ConcatPipe } from './pipes/utilities/concat.pipe';
+import { ContainsPipe } from './pipes/utilities/contains.pipe';
 
 @NgModule({
   declarations: [
@@ -164,7 +171,14 @@ import { WrapPipe } from './pipes/string/wrap.pipe';
     UppercaseFirstPipe,
     UriComponentEncodePipe,
     UriEncodePipe,
-    WrapPipe
+    WrapPipe,
+    AfterPipe,
+    AfterWherePipe,
+    BeforePipe,
+    BeforeWherePipe,
+    ChunkByPipe,
+    ConcatPipe,
+    ContainsPipe
   ],
   imports: [
     BrowserModule,
