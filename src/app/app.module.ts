@@ -92,6 +92,26 @@ import { BeforeWherePipe } from './pipes/utilities/before-where.pipe';
 import { ChunkByPipe } from './pipes/utilities/chunk-by.pipe';
 import { ConcatPipe } from './pipes/utilities/concat.pipe';
 import { ContainsPipe } from './pipes/utilities/contains.pipe';
+import { DefaultsPipe } from './pipes/utilities/defaults.pipe';
+import { EveryPipe } from './pipes/utilities/every.pipe';
+import { FilterByPipe } from './pipes/utilities/filter-by.pipe';
+import { FirstPipe } from './pipes/utilities/first.pipe';
+import { FlattenPipe } from './pipes/utilities/flatten.pipe';
+import { FuzzyPipe } from './pipes/utilities/fuzzy.pipe';
+import { FuzzyByPipe } from './pipes/utilities/fuzzy-by.pipe';
+import { IsEmptyCollectionPipe } from './pipes/utilities/is-empty-collection.pipe';
+import { JoinPipe } from './pipes/utilities/join.pipe';
+import { LastPipe } from './pipes/utilities/last.pipe';
+import { MapPipe } from './pipes/utilities/map.pipe';
+import { ObjectToArrayPipe } from './pipes/utilities/object-to-array.pipe';
+import { OmitPipe } from './pipes/utilities/omit.pipe';
+import { PickPipe } from './pipes/utilities/pick.pipe';
+import { RangePipe } from './pipes/utilities/range.pipe';
+import { RemoveWithPipe } from './pipes/utilities/remove-with.pipe';
+import { SearchfieldPipe } from './pipes/utilities/searchfield.pipe';
+import { UniquePipe } from './pipes/utilities/unique.pipe';
+import { WherePipe } from './pipes/utilities/where.pipe';
+import { XorPipe } from './pipes/utilities/xor.pipe';
 
 @NgModule({
   declarations: [
@@ -178,7 +198,28 @@ import { ContainsPipe } from './pipes/utilities/contains.pipe';
     BeforeWherePipe,
     ChunkByPipe,
     ConcatPipe,
-    ContainsPipe
+    ContainsPipe,
+    DefaultsPipe,
+    EveryPipe,
+    FilterByPipe,
+    FirstPipe,
+    FlattenPipe,
+    FuzzyPipe,
+    FuzzyByPipe,
+    IsEmptyCollectionPipe,
+    JoinPipe,
+    LastPipe,
+    MapPipe,
+    ObjectToArrayPipe,
+    OmitPipe,
+    PickPipe,
+    RangePipe,
+    RemoveWithPipe,
+    ReversePipe,
+    SearchfieldPipe,
+    UniquePipe,
+    WherePipe,
+    XorPipe
   ],
   imports: [
     BrowserModule,

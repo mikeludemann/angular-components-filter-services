@@ -10,6 +10,12 @@ Starting the app
 ng serve --open
 ```
 
+Installing npm packages
+
+```
+npm install
+```
+
 ## Overview
 
 ### Components 
@@ -27,28 +33,29 @@ TBD
 |isEqualType        |arctangantquotient |                   |                   |lower              |chunkBy            |
 |isEqual            |ceil               |                   |                   |lowercaseFirst     |concat             |
 |isFunction         |cosine             |                   |                   |repeat             |contains           |
-|isGreaterEqual     |cubicRoot          |                   |                   |reverse            |                   |
-|isGreater          |degrees            |                   |                   |righttrim          |                   |
-|isLessEqual        |euler              |                   |                   |slugify            |                   |
-|isLess             |floor              |                   |                   |split              |                   |
-|isNil              |hyperbolicArccosine|                   |                   |startsWith         |                   |
-|isNotEqualType     |hyperbolicArcsine  |                   |                   |stringular         |                   |
-|isNotEqual         |hyperbolicCosine   |                   |                   |striptags          |                   |
-|isNull             |hyperbolicSin      |                   |                   |titleize           |                   |
-|isNumber           |hyperbolicTangant  |                   |                   |trim               |                   |
-|isObject           |logarithm          |                   |                   |truncate           |                   |
-|isString           |min                |                   |                   |upper              |                   |
-|isUndefined        |max                |                   |                   |uppercaseFirst     |                   |
-|                   |percentage         |                   |                   |uriComponentEncode |                   |
-|                   |pow                |                   |                   |uriEncode          |                   |
-|                   |radians            |                   |                   |wrap               |                   |
-|                   |radix              |                   |                   |                   |                   |
-|                   |round              |                   |                   |                   |                   |
-|                   |sin                |                   |                   |                   |                   |
-|                   |sqrt               |                   |                   |                   |                   |
-|                   |sum                |                   |                   |                   |                   |
-|                   |tangant            |                   |                   |                   |                   |
-|                   |trunc              |                   |                   |                   |                   |
+|isGreaterEqual     |cubicRoot          |                   |                   |reverse            |countBy            |
+|isGreater          |degrees            |                   |                   |righttrim          |defaults           |
+|isLessEqual        |euler              |                   |                   |slugify            |every              |
+|isLess             |floor              |                   |                   |split              |filterBy           |
+|isNil              |hyperbolicArccosine|                   |                   |startsWith         |first              |
+|isNotEqualType     |hyperbolicArcsine  |                   |                   |stringular         |flatten            |
+|isNotEqual         |hyperbolicCosine   |                   |                   |striptags          |fuzzy              |
+|isNull             |hyperbolicSin      |                   |                   |titleize           |fuzzyBy            |
+|isNumber           |hyperbolicTangant  |                   |                   |trim               |isEmptyCollection  |
+|isObject           |logarithm          |                   |                   |truncate           |join               |
+|isString           |min                |                   |                   |upper              |last               |
+|isUndefined        |max                |                   |                   |uppercaseFirst     |map                |
+|                   |percentage         |                   |                   |uriComponentEncode |objectToArray      |
+|                   |pow                |                   |                   |uriEncode          |omit               |
+|                   |radians            |                   |                   |wrap               |pick               |
+|                   |radix              |                   |                   |                   |range              |
+|                   |round              |                   |                   |                   |remove             |
+|                   |sin                |                   |                   |                   |removeWith         |
+|                   |sqrt               |                   |                   |                   |reverse            |
+|                   |sum                |                   |                   |                   |searchfield        |
+|                   |tangant            |                   |                   |                   |unique             |
+|                   |trunc              |                   |                   |                   |where              |
+|                   |                   |                   |                   |                   |xor                |
 
 ### Services
 
@@ -71,9 +78,148 @@ TBD
 
 ### Enum 
 
-|Direction|Status   |FileAccess|Port      |MediaType |
-|---------|---------|----------|----------|----------|
-|UP       |YES      |None      |HTTP      |JSON      |
-|DOWN     |NO       |Read      |HTTPS     |XML       |
-|LEFT     |         |Write     |          |... TBD   |
-|RIGHT    |         |ReadWrite |          |          |
+|Direction|Status   |FileAccess|Port      |MediaType             |
+|---------|---------|----------|----------|----------------------|
+|UP       |YES      |None      |HTTP      |AUTOCAD_NCSA          |
+|DOWN     |NO       |Read      |HTTPS     |APPLEFILE             |
+|LEFT     |         |Write     |          |ASTOUND               |
+|RIGHT    |         |ReadWrite |          |TSP                   |
+|         |         |          |          |AUTOCAD_CERN          |
+|         |         |          |          |FUTURESPLASH          |
+|         |         |          |          |GZIP                  |
+|         |         |          |          |JAVASCRIPT_APP        |
+|         |         |          |          |JSON                  |
+|         |         |          |          |LISTENUP              |
+|         |         |          |          |MAC_BINARY            |
+|         |         |          |          |MBEDLET               |
+|         |         |          |          |MIF                   |
+|         |         |          |          |MSEXCEL               |
+|         |         |          |          |MSHELP                |
+|         |         |          |          |MSPOWERPOINT          |
+|         |         |          |          |MSWORD                |
+|         |         |          |          |OCTET                 |
+|         |         |          |          |ODA                   |
+|         |         |          |          |PDF                   |
+|         |         |          |          |POSTSCRIPT            |
+|         |         |          |          |RTC                   |
+|         |         |          |          |RTF                   |
+|         |         |          |          |STUDIOM               |
+|         |         |          |          |VMD                   |
+|         |         |          |          |VMF                   |
+|         |         |          |          |EXCEL_OPENOFFICE      |
+|         |         |          |          |WORD_OPENOFFICE       |
+|         |         |          |          |WMLC                  |
+|         |         |          |          |WML_SCRIPT_C          |
+|         |         |          |          |XHTML                 |
+|         |         |          |          |XML                   |
+|         |         |          |          |BCPIO                 |
+|         |         |          |          |ZLIP                  |
+|         |         |          |          |CPIO                  |
+|         |         |          |          |CSH                   |
+|         |         |          |          |DIRECTOR              |
+|         |         |          |          |DVI                   |
+|         |         |          |          |ENVOY                 |
+|         |         |          |          |GTAR                  |
+|         |         |          |          |HDF                   |
+|         |         |          |          |PHP                   |
+|         |         |          |          |LATEX                 |
+|         |         |          |          |MAC_BIN               |
+|         |         |          |          |XMIF                  |
+|         |         |          |          |CDF                   |
+|         |         |          |          |NSCHAT                |
+|         |         |          |          |SHELL                 |
+|         |         |          |          |SHELL_ARCHIVE         |
+|         |         |          |          |SHOCKWAVE             |
+|         |         |          |          |SPRITE                |
+|         |         |          |          |STUFFIT               |
+|         |         |          |          |SUPERCARD             |
+|         |         |          |          |CPIO_SV4              |
+|         |         |          |          |CPIO_SV4_CRC          |
+|         |         |          |          |TAR                   |
+|         |         |          |          |TCL                   |
+|         |         |          |          |TEX                   |
+|         |         |          |          |TEXINFO               |
+|         |         |          |          |TROFF                 |
+|         |         |          |          |TROFF_MAN             |
+|         |         |          |          |TROFF_ME              |
+|         |         |          |          |TROFF_MS              |
+|         |         |          |          |USTAR                 |
+|         |         |          |          |WAIS                  |
+|         |         |          |          |HTML_CGI              |
+|         |         |          |          |ZIP                   |
+|         |         |          |          |BASIC                 |
+|         |         |          |          |ECHOSPEECH            |
+|         |         |          |          |TSI                   |
+|         |         |          |          |VOX                   |
+|         |         |          |          |AIFF                  |
+|         |         |          |          |DSPEECH               |
+|         |         |          |          |MIDI                  |
+|         |         |          |          |MPEG_AUDIO            |
+|         |         |          |          |REALAUDIO             |
+|         |         |          |          |REALAUDIO_PLUGIN      |
+|         |         |          |          |QUICKTIME_AUDIO       |
+|         |         |          |          |WAV                   |
+|         |         |          |          |DRAWING               |
+|         |         |          |          |BMP                   |
+|         |         |          |          |CIS_COD               |
+|         |         |          |          |CMU_RASTER            |
+|         |         |          |          |FIF                   |
+|         |         |          |          |GIF                   |
+|         |         |          |          |IEF                   |
+|         |         |          |          |JPEG                  |
+|         |         |          |          |PNG                   |
+|         |         |          |          |SVG                   |
+|         |         |          |          |TIFF                  |
+|         |         |          |          |VASA                  |
+|         |         |          |          |BITMAP_WAP            |
+|         |         |          |          |FREEHAND              |
+|         |         |          |          |ICON                  |
+|         |         |          |          |PBM_ANYMAP            |
+|         |         |          |          |PBM_BITMAP            |
+|         |         |          |          |PBM_GRAYMAP           |
+|         |         |          |          |PBM_PIXMAP            |
+|         |         |          |          |RGB                   |
+|         |         |          |          |X_WINDOWS             |
+|         |         |          |          |XBM                   |
+|         |         |          |          |XPM                   |
+|         |         |          |          |EXTERNAL_BODY         |
+|         |         |          |          |HTTP                  |
+|         |         |          |          |NEWS                  |
+|         |         |          |          |PARTIAL               |
+|         |         |          |          |RTC822                |
+|         |         |          |          |VRML_MODEL            |
+|         |         |          |          |ALTERNATIVE           |
+|         |         |          |          |BYTERANGES            |
+|         |         |          |          |DIGEST                |
+|         |         |          |          |ENCRYPTED             |
+|         |         |          |          |FORM_DATA             |
+|         |         |          |          |MIXED                 |
+|         |         |          |          |PARALLEL              |
+|         |         |          |          |RELATED               |
+|         |         |          |          |REPORT                |
+|         |         |          |          |SIGNED                |
+|         |         |          |          |VOICE                 |
+|         |         |          |          |CSV                   |
+|         |         |          |          |CSS                   |
+|         |         |          |          |HTML                  |
+|         |         |          |          |JAVASCRIPT            |
+|         |         |          |          |PLAIN                 |
+|         |         |          |          |RICHTEXT              |
+|         |         |          |          |RTF_TEXT              |
+|         |         |          |          |TSV                   |
+|         |         |          |          |WML                   |
+|         |         |          |          |WML_SCRIPT            |
+|         |         |          |          |XML_TEXT              |
+|         |         |          |          |XML_EXTERN            |
+|         |         |          |          |SETEXT                |
+|         |         |          |          |SGML                  |
+|         |         |          |          |SPEECH                |
+|         |         |          |          |MPEG_VIDEO            |
+|         |         |          |          |QUICKTIME_VIDEO       |
+|         |         |          |          |VIVO                  |
+|         |         |          |          |WEBM                  |
+|         |         |          |          |MSVIDEO               |
+|         |         |          |          |MOVIE                 |
+|         |         |          |          |FORMULAONE            |
+|         |         |          |          |DMF_3                 |
+|         |         |          |          |VRML_X_WORLD          |

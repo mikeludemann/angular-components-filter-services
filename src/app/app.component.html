@@ -3,12 +3,9 @@
 </h1>
 <div id="filter">
   <h2>Filter</h2>
-  <p *ngIf="array2| contains:5">true</p>
-  <ol>
-    <li *ngFor="let x of list | beforeWhere:{id:2}">
-      {{x.test}}
-    </li>
-  </ol>
+  <input [(ngModel)]="search" />
+  <p>{{search}}</p>
+  <p *ngIf="test | every:1">true</p>
 </div>
 <div id="services">
   <h2>Services</h2>
