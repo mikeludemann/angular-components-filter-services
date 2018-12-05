@@ -3,9 +3,14 @@
 </h1>
 <div id="filter">
   <h2>Filter</h2>
-  <input [(ngModel)]="search" />
+  <input [(ngModel)]="searchtext" />
   <p>{{search}}</p>
-  <p *ngIf="test | every:1">true</p>
+  <ul>
+    <li *ngFor="let character of persons | search: searchtext">
+      {{character}}
+    </li>
+  </ul>
+  <app-image></app-image>
 </div>
 <div id="services">
   <h2>Services</h2>

@@ -20,42 +20,49 @@ npm install
 
 ### Components 
 
-TBD
+|Image    |
+|---------|
+|src      |
+|id       |
+|class    |
+|width    |
+|height   |
+|alt      |
 
 ### Filter / Pipes
 
-|Boolean            |Math               |Object             |Regular Expression |String             |Utilities          |
-|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|
-|isArray            |abs                |invert             |match              |camelize           |after              |
-|isDefined          |arccosine          |keys               |test               |endsWith           |afterWhere         |
-|isEmpty            |arcsine            |values             |                   |latinize           |before             |
-|isEmptyDimension   |arctangant         |                   |                   |lefttrim           |beforeWhere        |
-|isEqualType        |arctangantquotient |                   |                   |lower              |chunkBy            |
-|isEqual            |ceil               |                   |                   |lowercaseFirst     |concat             |
-|isFunction         |cosine             |                   |                   |repeat             |contains           |
-|isGreaterEqual     |cubicRoot          |                   |                   |reverse            |countBy            |
-|isGreater          |degrees            |                   |                   |righttrim          |defaults           |
-|isLessEqual        |euler              |                   |                   |slugify            |every              |
-|isLess             |floor              |                   |                   |split              |filterBy           |
-|isNil              |hyperbolicArccosine|                   |                   |startsWith         |first              |
-|isNotEqualType     |hyperbolicArcsine  |                   |                   |stringular         |flatten            |
-|isNotEqual         |hyperbolicCosine   |                   |                   |striptags          |fuzzy              |
-|isNull             |hyperbolicSin      |                   |                   |titleize           |fuzzyBy            |
-|isNumber           |hyperbolicTangant  |                   |                   |trim               |isEmptyCollection  |
-|isObject           |logarithm          |                   |                   |truncate           |join               |
-|isString           |min                |                   |                   |upper              |last               |
-|isUndefined        |max                |                   |                   |uppercaseFirst     |map                |
-|                   |percentage         |                   |                   |uriComponentEncode |objectToArray      |
-|                   |pow                |                   |                   |uriEncode          |omit               |
-|                   |radians            |                   |                   |wrap               |pick               |
-|                   |radix              |                   |                   |                   |range              |
-|                   |round              |                   |                   |                   |remove             |
-|                   |sin                |                   |                   |                   |removeWith         |
-|                   |sqrt               |                   |                   |                   |reverse            |
-|                   |sum                |                   |                   |                   |searchfield        |
-|                   |tangant            |                   |                   |                   |unique             |
-|                   |trunc              |                   |                   |                   |where              |
-|                   |                   |                   |                   |                   |xor                |
+|Boolean            |Math               |Object             |Regular Expression |String             |Utilities          |Collection         |
+|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|
+|isArray            |abs                |invert             |match              |camelize           |after              |search             |
+|isDefined          |arccosine          |keys               |test               |endsWith           |afterWhere         |                   |
+|isEmpty            |arcsine            |values             |                   |latinize           |before             |                   |
+|isEmptyDimension   |arctangant         |                   |                   |lefttrim           |beforeWhere        |                   |
+|isEqualType        |arctangantquotient |                   |                   |lower              |chunkBy            |                   |
+|isEqual            |ceil               |                   |                   |lowercaseFirst     |concat             |                   |
+|isFunction         |cosine             |                   |                   |repeat             |contains           |                   |
+|isGreaterEqual     |cubicRoot          |                   |                   |reverse            |countBy            |                   |
+|isGreater          |degrees            |                   |                   |righttrim          |defaults           |                   |
+|isLessEqual        |euler              |                   |                   |slugify            |every              |                   |
+|isLess             |floor              |                   |                   |split              |filterBy           |                   |
+|isNil              |hyperbolicArccosine|                   |                   |startsWith         |first              |                   |
+|isNotEqualType     |hyperbolicArcsine  |                   |                   |stringular         |flatten            |                   |
+|isNotEqual         |hyperbolicCosine   |                   |                   |striptags          |fuzzy              |                   |
+|isNull             |hyperbolicSin      |                   |                   |titleize           |fuzzyBy            |                   |
+|isNumber           |hyperbolicTangant  |                   |                   |trim               |isEmptyCollection  |                   |
+|isObject           |logarithm          |                   |                   |truncate           |join               |                   |
+|isString           |min                |                   |                   |upper              |last               |                   |
+|isUndefined        |max                |                   |                   |uppercaseFirst     |map                |                   |
+|                   |percentage         |                   |                   |uriComponentEncode |objectToArray      |                   |
+|                   |pow                |                   |                   |uriEncode          |omit               |                   |
+|                   |radians            |                   |                   |wrap               |pick               |                   |
+|                   |radix              |                   |                   |                   |range              |                   |
+|                   |round              |                   |                   |                   |remove             |                   |
+|                   |sin                |                   |                   |                   |removeWith         |                   |
+|                   |sqrt               |                   |                   |                   |reverse            |                   |
+|                   |sum                |                   |                   |                   |searchfield        |                   |
+|                   |tangant            |                   |                   |                   |unique             |                   |
+|                   |trunc              |                   |                   |                   |where              |                   |
+|                   |                   |                   |                   |                   |xor                |                   |
 
 ### Services
 
