@@ -4,11 +4,111 @@ Some helpful source codes for components, filters, and services in angular
 
 ## Command
 
-Starting the app
+### Starting the app
 
 ```
-ng serve --open
+ng serve [--open --port 8080/8443 --liveReload true/false --proxy-config proxy.conf.json --target Build --environment --ssl true/false --ssl-key ssl/server.key --ssl-cert ssl/server.cert --aot true/false]
+
+or
+
+npm start
 ```
+
+### Checking version
+
+```
+ng --version
+```
+
+### Generator (Create)
+
+#### Component
+
+```
+ng generate component name
+```
+
+#### Directive
+
+```
+ng generate directive name
+```
+
+#### Pipe
+
+```
+ng generate pipe name
+```
+
+#### Service
+
+```
+ng generate service name
+```
+
+#### Module
+
+```
+ng generate module name
+```
+
+#### Class
+
+```
+ng generate class name
+```
+
+#### Interface
+
+```
+ng generate interface name
+```
+
+#### Enum
+
+```
+ng generate enum name
+```
+
+### Tests
+
+```
+ng test [--watch=false/true]
+
+or
+
+npm run test
+```
+
+### Tests - e2e
+
+```
+ng e2e
+
+or
+
+npm run e2e
+```
+
+### Builds
+
+```
+ng build [--prod --dev --source]
+```
+
+### Linter
+
+```
+ng lint
+```
+
+### Delete cache
+
+```
+ng cache clean
+```
+
+### Packages (Install)
 
 Installing npm packages
 
