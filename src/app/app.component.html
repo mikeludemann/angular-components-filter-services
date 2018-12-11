@@ -1,6 +1,12 @@
 <h1>
   {{title}}
 </h1>
+<div id="components">
+  <h2>Components</h2>
+  <image source="./../assets/images/super-mario.png"></image>
+  <bold>Test</bold>
+  <italic>Test</italic>
+</div>
 <div id="filter">
   <h2>Filter</h2>
   <input [(ngModel)]="searchtext" />
@@ -10,7 +16,6 @@
       {{character}}
     </li>
   </ul>
-  <app-image></app-image>
 </div>
 <div id="services">
   <h2>Services</h2>
