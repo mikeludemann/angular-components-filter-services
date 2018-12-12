@@ -120,14 +120,23 @@ npm install
 
 ### Components 
 
-|Image    |
-|---------|
-|src      |
-|id       |
-|class    |
-|width    |
-|height   |
-|alt      |
+#### Images & Co. 
+
+|Image    |Map           |
+|---------|--------------|
+|source   |name          |
+|id       |form          |
+|class    |coordination  |
+|width    |urlmap        |
+|height   |text          |
+|alttext  |              |
+|usemap   |              |
+
+#### Tags [HTML5] 
+
+|Bold     |Italic   |
+|---------|---------|
+|         |         |
 
 ### Filter / Pipes
 
