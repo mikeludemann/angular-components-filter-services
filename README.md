@@ -132,11 +132,61 @@ npm install
 |alttext  |              |
 |usemap   |              |
 
-#### Tags [HTML5] 
+#### Tags [HTML5]
 
-|Bold     |Italic   |
-|---------|---------|
-|         |         |
+|acronymous    |bigger        |bold          |break         |coding        |down          |delete        |emphrasize    |inserted      |
+|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|
+|              |              |              |              |              |              |              |              |              |
+
+|italic        |marked        |quote         |smaller       |stronger      |up            |variable      |block-quote   |abbreviation  |
+|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|
+|              |              |url           |              |              |              |              |url           |title         |
+
+|address-block |keyboarddisplay|cite-mode     |pre-mode      |bidirectional |article-mode  |aside-mode    |applet-mode     |bidirectionalisolation  |
+|--------------|---------------|--------------|--------------|--------------|--------------|--------------|----------------|------------------------|
+|              |               |              |              |direction     |              |              |url             |                        |
+|              |               |              |              |              |              |              |objectname      |                        |
+|              |               |              |              |              |              |              |position        |                        |
+|              |               |              |              |              |              |              |alttext         |                        |
+|              |               |              |              |              |              |              |archiveurl      |                        |
+|              |               |              |              |              |              |              |codebaseurl     |                        |
+|              |               |              |              |              |              |              |spacehorizontal |                        |
+|              |               |              |              |              |              |              |spacevertical   |                        |
+|              |               |              |              |              |              |              |height          |                        |
+|              |               |              |              |              |              |              |width           |                        |
+|              |               |              |              |              |              |              |name            |                        |
+
+|center-mode   |data-mode     |descriptionlist|descriptionterm|descriptiondescribe|details-mode  |definininginstance |dialog-mode   |fieldset-mode |
+|--------------|--------------|---------------|---------------|-------------------|--------------|-------------------|--------------|--------------|
+|              |value         |               |               |                   |open          |id                 |compact       |disabled      |
+|              |              |               |               |                   |              |title              |              |formname      |
+|              |              |               |               |                   |              |                   |              |name          |
+
+|legend-mode   |figure-mode   |figcaption-mode |frame-mode    |frameset-mode |noframes-mode |main-mode     |meter-mode    |navigation    |
+|--------------|--------------|----------------|--------------|--------------|--------------|--------------|--------------|--------------|
+|position      |              |                |border        |cols          |              |              |value         |              |
+|              |              |                |urllong       |rows          |              |              |min           |              |
+|              |              |                |source        |              |              |              |max           |              |
+|              |              |                |height        |              |              |              |              |              |
+|              |              |                |width         |              |              |              |              |              |
+|              |              |                |noresize      |              |              |              |              |              |
+|              |              |                |name          |              |              |              |              |              |
+|              |              |                |scrollformat  |              |              |              |              |              |
+
+|output-mode   |progress-mode |ruby-mode     |rubyterm      |rubyparse     |sdelete       |strikedelete  |summary       |wordbreakopportunity      |
+|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------------------|
+|name          |value         |              |              |              |              |              |              |                          |
+|form          |max           |              |              |              |              |              |              |                          |
+|for           |              |              |              |              |              |              |              |                          |
+
+|template-mode |iframe-mode  |partingline  |
+|--------------|-------------|-------------|
+|              |class        |id           |
+|              |url          |class        |
+|              |height       |orientation  |
+|              |width        |             |
+|              |srcdoc       |             |
+|              |sandbox      |             |
 
 ### Filter / Pipes
 
