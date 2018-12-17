@@ -12,14 +12,6 @@ export class PartinglineComponent implements OnInit {
   @Input() orientation: string;
   @Input() styling: "";
 
-  vertical = {
-    'transform': 'rotate(90deg)'
-  };
-
-  horizontal = {
-    'transform': 'rotate(0deg)'
-  };
-
   constructor() { }
 
   ngOnInit() {

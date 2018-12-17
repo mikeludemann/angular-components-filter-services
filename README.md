@@ -132,6 +132,27 @@ npm install
 |alttext  |              |
 |usemap   |              |
 
+#### Link 
+
+|links    |link-container|download-link |
+|---------|--------------|--------------|
+|url      |url           |url           |
+|name     |name          |name          |
+|target   |target        |target        |
+|text     |              |download      |
+
+#### List (TBD)
+
+|sortinglist |unsorting-list|directionlist |modernlist    |
+|------------|--------------|--------------|--------------|
+|            |              |              |              |
+
+#### Tables (TBD)
+
+|table-mode  |table-header  |table-body    |table-footer  |table-row     |table-column  |table-column-group |table-column-of-group |table-caption |
+|------------|--------------|--------------|--------------|--------------|--------------|-------------------|----------------------|--------------|
+|            |              |              |              |              |              |                   |                      |              |
+
 #### Tags [HTML5]
 
 |acronymous    |bigger        |bold          |break         |coding        |down          |delete        |emphrasize    |inserted      |
@@ -173,20 +194,20 @@ npm install
 |              |              |                |name          |              |              |              |              |              |
 |              |              |                |scrollformat  |              |              |              |              |              |
 
-|output-mode   |progress-mode |ruby-mode     |rubyterm      |rubyparse     |sdelete       |strikedelete  |summary       |wordbreakopportunity      |
+|output-mode   |progress-mode |ruby-mode     |rubyterm      |rubyparse     |sdelete       |strikedelete  |summary-mode  |wordbreakopportunity      |
 |--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------------------|
 |name          |value         |              |              |              |              |              |              |                          |
 |form          |max           |              |              |              |              |              |              |                          |
 |for           |              |              |              |              |              |              |              |                          |
 
-|template-mode |iframe-mode  |partingline  |
-|--------------|-------------|-------------|
-|              |class        |id           |
-|              |url          |class        |
-|              |height       |orientation  |
-|              |width        |             |
-|              |srcdoc       |             |
-|              |sandbox      |             |
+|template-mode |iframe-mode  |partingline  |symbol       |headline     |text-container |text-element |
+|--------------|-------------|-------------|-------------|-------------|---------------|-------------|
+|              |class        |id           |id           |id           |               |             |
+|              |url          |class        |codeformat   |size         |               |             |
+|              |height       |orientation  |code         |title        |               |             |
+|              |width        |             |             |             |               |             |
+|              |srcdoc       |             |             |             |               |             |
+|              |sandbox      |             |             |             |               |             |
 
 ### Filter / Pipes
 

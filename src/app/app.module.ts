@@ -69,6 +69,11 @@ import { WordbreakopportunityComponent } from './components/tags/wordbreakopport
 import { TemplateComponent } from './components/tags/template/template.component';
 import { IframeComponent } from './components/tags/iframe/iframe.component';
 import { PartinglineComponent } from './components/tags/partingline/partingline.component';
+import { HeadlineComponent } from './components/tags/headline/headline.component';
+import { SymbolComponent } from './components/tags/symbol/symbol.component';
+import { LinkComponent } from './components/links/link/link.component';
+import { LinkContainerComponent } from './components/links/link-container/link-container.component';
+import { DownloadLinkComponent } from './components/links/download-link/download-link.component';
 
 @NgModule({
   declarations: [
@@ -88,7 +93,6 @@ import { PartinglineComponent } from './components/tags/partingline/partingline.
     CodingComponent,
     VariableComponent,
     BreakComponent,
-    AcronymousComponent,
     AbbreviationComponent,
     BlockquoteComponent,
     AddressComponent,
@@ -97,9 +101,7 @@ import { PartinglineComponent } from './components/tags/partingline/partingline.
     BidirectionalComponent,
     ArticleComponent,
     AsideComponent,
-    AppletComponent,
     BidirectionalisolationComponent,
-    CenterComponent,
     DataComponent,
     DescriptionlistComponent,
     DescriptiontermComponent,
@@ -113,7 +115,6 @@ import { PartinglineComponent } from './components/tags/partingline/partingline.
     FigcaptionComponent,
     FrameComponent,
     FramesetComponent,
-    NoframesComponent,
     MainComponent,
     MeterComponent,
     NavigationComponent,
@@ -123,12 +124,15 @@ import { PartinglineComponent } from './components/tags/partingline/partingline.
     RubyparseComponent,
     RubytermComponent,
     SdeleteComponent,
-    StrikedeleteComponent,
     SummaryComponent,
-    WordbreakopportunityComponent,
     TemplateComponent,
     IframeComponent,
-    PartinglineComponent
+    PartinglineComponent,
+    HeadlineComponent,
+    SymbolComponent,
+    LinkComponent,
+    LinkContainerComponent,
+    DownloadLinkComponent
   ],
   imports: [
     BrowserModule,
