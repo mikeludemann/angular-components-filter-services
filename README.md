@@ -122,7 +122,7 @@ npm install
 
 #### Images & Co. 
 
-|Image    |Map           |
+|image    |map-use       |
 |---------|--------------|
 |source   |name          |
 |id       |form          |
@@ -141,16 +141,29 @@ npm install
 |target   |target        |target        |
 |text     |              |download      |
 
-#### List (TBD)
+#### List
 
-|sortinglist |unsorting-list|directionlist |modernlist    |
-|------------|--------------|--------------|--------------|
-|            |              |              |              |
+|sorting-list |unsorting-list|direction-list |
+|-------------|--------------|---------------|
+|             |              |               |
 
-#### Tables (TBD)
+#### Includes
+
+|footer-mode  |header-mode   |
+|-------------|--------------|
+|class        |class         |
+
+#### Tables
 
 |table-mode  |table-header  |table-body    |table-footer  |table-row     |table-column  |table-column-group |table-column-of-group |table-caption |
 |------------|--------------|--------------|--------------|--------------|--------------|-------------------|----------------------|--------------|
+|id          |id            |id            |id            |id            |id            |id                 |id                    |id            |
+|class       |class         |class         |class         |class         |class         |class              |class                 |class         |
+|            |abbreviation  |              |              |              |headers       |size               |size                  |              |
+|            |headers       |              |              |              |columnsize    |                   |                      |              |
+|            |columnsize    |              |              |              |rowsize       |                   |                      |              |
+|            |rowsize       |              |              |              |              |                   |                      |              |
+|            |scope         |              |              |              |              |                   |                      |              |
 |            |              |              |              |              |              |                   |                      |              |
 
 #### Tags [HTML5]

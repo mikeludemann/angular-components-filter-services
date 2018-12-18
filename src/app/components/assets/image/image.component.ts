@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'image',
@@ -17,44 +17,52 @@ export class ImageComponent implements OnInit {
   @Input() filter: string;
   @Input() filterDimension: string;
 
+  @ViewChild('images') el: ElementRef;
+
   constructor() { }
 
   ngOnInit() {
 
-    var image = document.querySelector("img");
+    if(typeof this.usemap !== "undefined"){
+      this.usemap = '#' + this.usemap;
+    }
+
+  }
+
+  ngAfterViewInit() {
 
     if (this.filter == "blur") {
-      image.style.filter = "blur(" + this.filterDimension + ")";
+      this.el.nativeElement.style.filter = "blur(" + this.filterDimension + ")";
     }
     else if (this.filter == "brightness") {
-      image.style.filter = "brightness(" + this.filterDimension + ")";
+      this.el.nativeElement.style.filter = "brightness(" + this.filterDimension + ")";
     }
     else if (this.filter == "contrast") {
-      image.style.filter = "contrast(" + this.filterDimension + ")";
+      this.el.nativeElement.style.filter = "contrast(" + this.filterDimension + ")";
     }
     else if (this.filter == "drop-shadow") {
-      image.style.filter = "drop-shadow(" + this.filterDimension + ")";
+      this.el.nativeElement.style.filter = "drop-shadow(" + this.filterDimension + ")";
     }
     else if (this.filter == "grayscale") {
-      image.style.filter = "grayscale(" + this.filterDimension + ")";
+      this.el.nativeElement.style.filter = "grayscale(" + this.filterDimension + ")";
     }
     else if (this.filter == "hue-rotate") {
-      image.style.filter = "hue-rotate(" + this.filterDimension + ")";
+      this.el.nativeElement.style.filter = "hue-rotate(" + this.filterDimension + ")";
     }
     else if (this.filter == "invert") {
-      image.style.filter = "invert(" + this.filterDimension + ")";
+      this.el.nativeElement.style.filter = "invert(" + this.filterDimension + ")";
     }
     else if (this.filter == "opacity") {
-      image.style.filter = "opacity(" + this.filterDimension + ")";
+      this.el.nativeElement.style.filter = "opacity(" + this.filterDimension + ")";
     }
     else if (this.filter == "saturate") {
-      image.style.filter = "saturate(" + this.filterDimension + ")";
+      this.el.nativeElement.style.filter = "saturate(" + this.filterDimension + ")";
     }
     else if (this.filter == "sepia") {
-      image.style.filter = "sepia(" + this.filterDimension + ")";
+      this.el.nativeElement.style.filter = "sepia(" + this.filterDimension + ")";
     }
     else {
-      image.style.filter = "none";
+      this.el.nativeElement.style.filter = "none";
     }
 
   }

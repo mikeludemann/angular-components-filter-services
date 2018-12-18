@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-map',
+  selector: 'map-use',
   templateUrl: './map.component.html',
   styleUrls: ['./map.component.css']
 })

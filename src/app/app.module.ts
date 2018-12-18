@@ -74,6 +74,20 @@ import { SymbolComponent } from './components/tags/symbol/symbol.component';
 import { LinkComponent } from './components/links/link/link.component';
 import { LinkContainerComponent } from './components/links/link-container/link-container.component';
 import { DownloadLinkComponent } from './components/links/download-link/download-link.component';
+import { TableComponent } from './components/tables/table/table.component';
+import { TableBodyComponent } from './components/tables/table-body/table-body.component';
+import { TableCaptionComponent } from './components/tables/table-caption/table-caption.component';
+import { TableColumnComponent } from './components/tables/table-column/table-column.component';
+import { TableColumnGroupComponent } from './components/tables/table-column-group/table-column-group.component';
+import { TableColumnOfGroupComponent } from './components/tables/table-column-of-group/table-column-of-group.component';
+import { TableFooterComponent } from './components/tables/table-footer/table-footer.component';
+import { TableHeaderComponent } from './components/tables/table-header/table-header.component';
+import { TableRowComponent } from './components/tables/table-row/table-row.component';
+import { SortingListComponent } from './components/list/sorting-list/sorting-list.component';
+import { UnsortingListComponent } from './components/list/unsorting-list/unsorting-list.component';
+import { DirectionListComponent } from './components/list/direction-list/direction-list.component';
+import { HeaderComponent } from './components/includes/header/header.component';
+import { FooterComponent } from './components/includes/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -132,7 +146,20 @@ import { DownloadLinkComponent } from './components/links/download-link/download
     SymbolComponent,
     LinkComponent,
     LinkContainerComponent,
-    DownloadLinkComponent
+    DownloadLinkComponent,
+    TableComponent,
+    TableBodyComponent,
+    TableCaptionComponent,
+    TableColumnComponent,
+    TableColumnGroupComponent,
+    TableFooterComponent,
+    TableHeaderComponent,
+    TableRowComponent,
+    SortingListComponent,
+    UnsortingListComponent,
+    DirectionListComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

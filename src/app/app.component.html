@@ -4,7 +4,8 @@
 <div id="components">
   <h2>Components</h2>
   <div>
-    <image source="./../assets/images/super-mario.png" filter="opacity" filterDimension="50%"></image>
+    <image source="./../assets/images/super-mario.png" filter="opacity" filterDimension="50%" usemap="test"></image>
+    <image source="./../assets/images/super-mario.png" filter="grayscale" filterDimension="100%"></image>
   </div>
   <partingline orientation="horizontal"></partingline>
   <headline id="New Mario" size="1" title="It's a me Mario"></headline>
@@ -14,11 +15,11 @@
   <h2>Filter</h2>
   <input [(ngModel)]="searchtext" />
   <p>{{search}}</p>
-  <ul>
+  <sorting-list>
     <li *ngFor="let character of persons | search: searchtext">
       {{character}}
     </li>
-  </ul>
+  </sorting-list>
 </div>
 <div id="services">
   <h2>Services</h2>
