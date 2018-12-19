@@ -14,6 +14,8 @@ import { PipesModule } from './pipes/pipes.module';
 import { AppComponent } from './app.component';
 import { ImageComponent } from './components/assets/image/image.component';
 import { MapComponent } from './components/assets/map/map.component';
+import { FontawesomeComponent } from './components/assets/fontawesome/fontawesome.component';
+import { GoogleMaterialComponent } from './components/assets/google-material/google-material.component';
 import { BoldComponent } from './components/tags/bold/bold.component';
 import { ItalicComponent } from './components/tags/italic/italic.component';
 import { StrongComponent } from './components/tags/strong/strong.component';
@@ -102,6 +104,8 @@ import { MonthComponent } from './components/date-time/month/month.component';
 @NgModule({
   declarations: [
     AppComponent,
+    FontawesomeComponent,
+    GoogleMaterialComponent,
     ImageComponent,
     MapComponent,
     StrongComponent,

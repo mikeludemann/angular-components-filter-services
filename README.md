@@ -128,15 +128,15 @@ npm install
 
 #### Images & Co. 
 
-|image    |map-use       |
-|---------|--------------|
-|source   |name          |
-|id       |form          |
-|class    |coordination  |
-|width    |urlmap        |
-|height   |text          |
-|alttext  |              |
-|usemap   |              |
+|image    |map-use       |google-material |fw-icon       |
+|---------|--------------|----------------|--------------|
+|source   |name          |element         |class         |
+|id       |form          |                |              |
+|class    |coordination  |                |              |
+|width    |urlmap        |                |              |
+|height   |text          |                |              |
+|alttext  |              |                |              |
+|usemap   |              |                |              |
 
 #### Link 
 
