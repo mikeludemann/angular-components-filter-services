@@ -7,7 +7,7 @@ import { CalculateService } from './services/calculate.service'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Test Environment for Components, Filter and Services';
+  title = 'Test Environment for Components, Filter, Services and more';
   persons = [
     'Alex',
     'Jack',

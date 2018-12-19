@@ -88,6 +88,16 @@ import { UnsortingListComponent } from './components/list/unsorting-list/unsorti
 import { DirectionListComponent } from './components/list/direction-list/direction-list.component';
 import { HeaderComponent } from './components/includes/header/header.component';
 import { FooterComponent } from './components/includes/footer/footer.component';
+import { HeadComponent } from './components/includes/head/head.component';
+import { BaseComponent } from './components/includes/base/base.component';
+import { BasefontComponent } from './components/includes/basefont/basefont.component';
+import { LinkCssComponent } from './components/includes/link-css/link-css.component';
+import { TitleComponent } from './components/includes/title/title.component';
+import { NoscriptComponent } from './components/includes/noscript/noscript.component';
+import { MetaComponent } from './components/includes/meta/meta.component';
+import { ScriptComponent } from './components/includes/script/script.component';
+import { YearComponent } from './components/date-time/year/year.component';
+import { MonthComponent } from './components/date-time/month/month.component';
 
 @NgModule({
   declarations: [
@@ -159,7 +169,15 @@ import { FooterComponent } from './components/includes/footer/footer.component';
     UnsortingListComponent,
     DirectionListComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    HeadComponent,
+    LinkCssComponent,
+    TitleComponent,
+    NoscriptComponent,
+    MetaComponent,
+    ScriptComponent,
+    YearComponent,
+    MonthComponent
   ],
   imports: [
     BrowserModule,

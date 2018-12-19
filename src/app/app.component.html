@@ -1,16 +1,22 @@
 <h1>
   {{title}}
 </h1>
+<partingline orientation="horizontal"></partingline>
 <div id="components">
   <h2>Components</h2>
   <div>
+    <headline id="New Mario" size="1" title="It's a me Mario"></headline>
     <image source="./../assets/images/super-mario.png" filter="opacity" filterDimension="50%" usemap="test"></image>
     <image source="./../assets/images/super-mario.png" filter="grayscale" filterDimension="100%"></image>
   </div>
   <partingline orientation="horizontal"></partingline>
-  <headline id="New Mario" size="1" title="It's a me Mario"></headline>
-  <link-container url="https://google.de" name="Google">google</link-container>
+  <div>
+    <h3>Date and Time</h3>
+    <month format="number"></month>
+    <year></year>
+  </div>
 </div>
+<partingline orientation="horizontal"></partingline>
 <div id="filter">
   <h2>Filter</h2>
   <input [(ngModel)]="searchtext" />
@@ -21,6 +27,7 @@
     </li>
   </sorting-list>
 </div>
+<partingline orientation="horizontal"></partingline>
 <div id="services">
   <h2>Services</h2>
   <p>Test: {{sum}}</p>

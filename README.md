@@ -120,6 +120,12 @@ npm install
 
 ### Components 
 
+#### Date and Time
+
+|year         |month         |              |
+|-------------|--------------|--------------|
+|             |format        |              |
+
 #### Images & Co. 
 
 |image    |map-use       |
@@ -149,9 +155,18 @@ npm install
 
 #### Includes
 
-|footer-mode  |header-mode   |
-|-------------|--------------|
-|class        |class         |
+|footer-mode  |header-mode   |head-mode     |base-mode     |base-font     |link-css      |title-mode    |no-script     |meta-mode     |script-mode   |
+|-------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|
+|class        |class         |              |url           |color         |rel           |              |              |name          |url           |
+|             |              |              |target        |fontfamily    |href          |              |              |content       |async         |
+|             |              |              |              |size          |hreflang      |              |              |charset       |defer         |
+|             |              |              |              |              |sizes         |              |              |itemprop      |type          |
+|             |              |              |              |              |title         |              |              |httpsequiv    |charset       |
+|             |              |              |              |              |type          |              |              |property      |              |
+|             |              |              |              |              |target        |              |              |              |              |
+|             |              |              |              |              |rev           |              |              |              |              |
+|             |              |              |              |              |media         |              |              |              |              |
+|             |              |              |              |              |crossorigin   |              |              |              |              |
 
 #### Tables
 
