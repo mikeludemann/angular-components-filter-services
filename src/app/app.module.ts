@@ -100,6 +100,14 @@ import { MetaComponent } from './components/includes/meta/meta.component';
 import { ScriptComponent } from './components/includes/script/script.component';
 import { YearComponent } from './components/date-time/year/year.component';
 import { MonthComponent } from './components/date-time/month/month.component';
+import { WeekComponent } from './components/date-time/week/week.component';
+import { DayComponent } from './components/date-time/day/day.component';
+import { HourComponent } from './components/date-time/hour/hour.component';
+import { MinuteComponent } from './components/date-time/minute/minute.component';
+import { SecondComponent } from './components/date-time/second/second.component';
+import { MillisecondComponent } from './components/date-time/millisecond/millisecond.component';
+import { ClockTimeComponent } from './components/date-time/timer/clock-time/clock-time.component';
+import { CountdownTimerComponent } from './components/date-time/timer/countdown-timer/countdown-timer.component';
 
 @NgModule({
   declarations: [
@@ -181,7 +189,15 @@ import { MonthComponent } from './components/date-time/month/month.component';
     MetaComponent,
     ScriptComponent,
     YearComponent,
-    MonthComponent
+    MonthComponent,
+    WeekComponent,
+    DayComponent,
+    HourComponent,
+    MinuteComponent,
+    SecondComponent,
+    MillisecondComponent,
+    ClockTimeComponent,
+    CountdownTimerComponent
   ],
   imports: [
     BrowserModule,

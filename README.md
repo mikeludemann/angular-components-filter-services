@@ -122,9 +122,16 @@ npm install
 
 #### Date and Time
 
-|year         |month         |              |
-|-------------|--------------|--------------|
-|             |format        |              |
+|year         |month         |day           |week          |minute        |second        |millisecond   |hour          |
+|-------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|
+|             |format        |              |              |              |              |              |              |
+
+##### Timer
+
+|clock-time   |countdown-timer |
+|-------------|----------------|
+|             |date            |
+|             |time            |
 
 #### Images & Co. 
 
@@ -274,9 +281,9 @@ npm install
 
 ### Services
 
-|Calculate|
-|---------|
-|sum      |
+|Calculate|Clock    |
+|---------|---------|
+|sum      |         |
 
 ### Interface
 
