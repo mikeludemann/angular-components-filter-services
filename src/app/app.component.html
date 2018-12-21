@@ -5,7 +5,7 @@
 <div id="components">
   <h2>Components</h2>
   <div>
-    <headline id="New Mario" size="1" title="It's a me Mario"></headline>
+    <headline id="mario" size="1" title="It's a me Mario"></headline>
     <image source="./../assets/images/super-mario.png" filter="opacity" filterDimension="50%" usemap="test"></image>
     <image source="./../assets/images/super-mario.png" filter="grayscale" filterDimension="100%"></image>
   </div>
@@ -13,6 +13,10 @@
   <div>
     <h3>Date and Time</h3>
     <countdown-timer date="2019-12-31" time="12:00:00"></countdown-timer>
+  </div>
+  <partingline orientation="horizontal"></partingline>
+  <div>
+    <qrcode width="240" height="240" data="https://google.de" encoding="UTF-8" correction="L"></qrcode>
   </div>
 </div>
 <partingline orientation="horizontal"></partingline>
@@ -31,3 +35,5 @@
   <h2>Services</h2>
   <p>Test: {{sum}}</p>
 </div>
+<!-- <scrolltoelement element="mario" timer="1000"></scrolltoelement> -->
+<!-- <scrolltotop></scrolltotop> -->

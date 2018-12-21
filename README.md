@@ -120,6 +120,24 @@ npm install
 
 ### Components 
 
+#### Images & Co. (Assets)
+
+|image    |map-use       |google-material |fw-icon       |
+|---------|--------------|----------------|--------------|
+|source   |name          |element         |class         |
+|id       |form          |                |              |
+|class    |coordination  |                |              |
+|width    |urlmap        |                |              |
+|height   |text          |                |              |
+|alttext  |              |                |              |
+|usemap   |              |                |              |
+
+##### Browser (Navigator)
+
+|browser-version |browser-code-name |browser-name |browser-cookie-enabled |browser-language  |browser-online    |browser-platform|browser-product   |browser-geolocation|browser-user-agent     |browser-contains  |
+|----------------|------------------|-------------|-----------------------|------------------|------------------|----------------|------------------|-------------------|-----------------------|------------------|
+|                |                  |             |                       |                  |                  |                |                  |                   |                       |                  |
+
 #### Date and Time
 
 |year         |month         |day           |week          |minute        |second        |millisecond   |hour          |
@@ -132,33 +150,6 @@ npm install
 |-------------|----------------|
 |             |date            |
 |             |time            |
-
-#### Images & Co. 
-
-|image    |map-use       |google-material |fw-icon       |
-|---------|--------------|----------------|--------------|
-|source   |name          |element         |class         |
-|id       |form          |                |              |
-|class    |coordination  |                |              |
-|width    |urlmap        |                |              |
-|height   |text          |                |              |
-|alttext  |              |                |              |
-|usemap   |              |                |              |
-
-#### Link 
-
-|links    |link-container|download-link |
-|---------|--------------|--------------|
-|url      |url           |url           |
-|name     |name          |name          |
-|target   |target        |target        |
-|text     |              |download      |
-
-#### List
-
-|sorting-list |unsorting-list|direction-list |
-|-------------|--------------|---------------|
-|             |              |               |
 
 #### Includes
 
@@ -174,6 +165,38 @@ npm install
 |             |              |              |              |              |rev           |              |              |              |              |
 |             |              |              |              |              |media         |              |              |              |              |
 |             |              |              |              |              |crossorigin   |              |              |              |              |
+
+#### Links 
+
+|links    |link-container|download-link |
+|---------|--------------|--------------|
+|url      |url           |url           |
+|name     |name          |name          |
+|target   |target        |target        |
+|text     |              |download      |
+
+#### List
+
+|sorting-list |unsorting-list|direction-list |
+|-------------|--------------|---------------|
+|             |              |               |
+
+#### QRCode
+
+|qrcode    |
+|----------|
+|width     |
+|height    |
+|data      |
+|encoding  |
+|correction|
+
+#### Scrolling
+
+|scrolltotop  |scrolltoelement |
+|-------------|----------------|
+|             |element         |
+|             |timer           |
 
 #### Tables
 

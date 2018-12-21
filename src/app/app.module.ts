@@ -108,6 +108,20 @@ import { SecondComponent } from './components/date-time/second/second.component'
 import { MillisecondComponent } from './components/date-time/millisecond/millisecond.component';
 import { ClockTimeComponent } from './components/date-time/timer/clock-time/clock-time.component';
 import { CountdownTimerComponent } from './components/date-time/timer/countdown-timer/countdown-timer.component';
+import { ScrolltotopComponent } from './components/scrolling/scrolltotop/scrolltotop.component';
+import { ScrolltoelementComponent } from './components/scrolling/scrolltoelement/scrolltoelement.component';
+import { BrowserVersionComponent } from './components/browser/browser-version/browser-version.component';
+import { BrowserCodeNameComponent } from './components/browser/browser-code-name/browser-code-name.component';
+import { BrowserNameComponent } from './components/browser/browser-name/browser-name.component';
+import { BrowserCookieEnabledComponent } from './components/browser/browser-cookie-enabled/browser-cookie-enabled.component';
+import { BrowserLanguageComponent } from './components/browser/browser-language/browser-language.component';
+import { BrowserOnlineComponent } from './components/browser/browser-online/browser-online.component';
+import { BrowserPlatformComponent } from './components/browser/browser-platform/browser-platform.component';
+import { BrowserProductComponent } from './components/browser/browser-product/browser-product.component';
+import { BrowserGeolocationComponent } from './components/browser/browser-geolocation/browser-geolocation.component';
+import { BrowserUserAgentComponent } from './components/browser/browser-user-agent/browser-user-agent.component';
+import { BrowserContainsComponent } from './components/browser/browser-contains/browser-contains.component';
+import { QrcodeComponent } from './components/qrcode/qrcode/qrcode.component';
 
 @NgModule({
   declarations: [
@@ -197,7 +211,21 @@ import { CountdownTimerComponent } from './components/date-time/timer/countdown-
     SecondComponent,
     MillisecondComponent,
     ClockTimeComponent,
-    CountdownTimerComponent
+    CountdownTimerComponent,
+    ScrolltotopComponent,
+    ScrolltoelementComponent,
+    BrowserVersionComponent,
+    BrowserCodeNameComponent,
+    BrowserNameComponent,
+    BrowserCookieEnabledComponent,
+    BrowserLanguageComponent,
+    BrowserOnlineComponent,
+    BrowserPlatformComponent,
+    BrowserProductComponent,
+    BrowserGeolocationComponent,
+    BrowserUserAgentComponent,
+    BrowserContainsComponent,
+    QrcodeComponent
   ],
   imports: [
     BrowserModule,
