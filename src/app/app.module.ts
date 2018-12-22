@@ -12,6 +12,8 @@ import { PipesModule } from './pipes/pipes.module';
 
 /* Components */
 import { AppComponent } from './app.component';
+import { AudioComponent } from './components/assets/audio/audio.component';
+import { VideoComponent } from './components/assets/video/video.component';
 import { ImageComponent } from './components/assets/image/image.component';
 import { MapComponent } from './components/assets/map/map.component';
 import { FontawesomeComponent } from './components/assets/fontawesome/fontawesome.component';
@@ -122,10 +124,15 @@ import { BrowserGeolocationComponent } from './components/browser/browser-geoloc
 import { BrowserUserAgentComponent } from './components/browser/browser-user-agent/browser-user-agent.component';
 import { BrowserContainsComponent } from './components/browser/browser-contains/browser-contains.component';
 import { QrcodeComponent } from './components/qrcode/qrcode/qrcode.component';
+import { AccordionComponent } from './components/accordion/accordion/accordion.component';
+import { SkillbarComponent } from './components/skills/skillbar/skillbar.component';
+import { ComingSoonComponent } from './components/coming-soon/coming-soon/coming-soon.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    AudioComponent,
+    VideoComponent,
     FontawesomeComponent,
     GoogleMaterialComponent,
     ImageComponent,
@@ -225,7 +232,10 @@ import { QrcodeComponent } from './components/qrcode/qrcode/qrcode.component';
     BrowserGeolocationComponent,
     BrowserUserAgentComponent,
     BrowserContainsComponent,
-    QrcodeComponent
+    QrcodeComponent,
+    AccordionComponent,
+    SkillbarComponent,
+    ComingSoonComponent
   ],
   imports: [
     BrowserModule,

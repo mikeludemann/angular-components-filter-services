@@ -120,23 +120,61 @@ npm install
 
 ### Components 
 
-#### Images & Co. (Assets)
+##### Accordion
 
-|image    |map-use       |google-material |fw-icon       |
-|---------|--------------|----------------|--------------|
-|source   |name          |element         |class         |
-|id       |form          |                |              |
-|class    |coordination  |                |              |
-|width    |urlmap        |                |              |
-|height   |text          |                |              |
-|alttext  |              |                |              |
-|usemap   |              |                |              |
+|accordion    |
+|-------------|
+|id           |
+|headline     |
+
+#### Assets
+
+|image    |map-use       |google-material |fw-icon       |audio-block      |video-block      |
+|---------|--------------|----------------|--------------|-----------------|-----------------|
+|source   |name          |element         |class         |class            |class            |
+|id       |form          |                |              |id               |id               |
+|class    |coordination  |                |              |autoplay         |autoplay         |
+|width    |urlmap        |                |              |controls         |controls         |
+|height   |text          |                |              |preload          |preload          |
+|alttext  |              |                |              |volume           |poster           |
+|usemap   |              |                |              |muted            |muted            |
+|         |              |                |              |loop             |loop             |
+|         |              |                |              |crossorigin      |crossorigin      |
+|         |              |                |              |notsupportedtext |notsupportedtext |
+|         |              |                |              |mpeg             |mpeg             |
+|         |              |                |              |mp4              |mp4              |
+|         |              |                |              |webm             |webm             |
+|         |              |                |              |ogg              |ogg              |
+|         |              |                |              |flac             |wav              |
+|         |              |                |              |title            |quicktime        |
+|         |              |                |              |track            |x_msvideo        |
+|         |              |                |              |tracksrc         |m4v              |
+|         |              |                |              |trackkind        |rtf              |
+|         |              |                |              |tracksrclang     |track            |
+|         |              |                |              |tracklabel       |tracksrc         |
+|         |              |                |              |                 |trackkind        |
+|         |              |                |              |                 |tracksrclang     |
+|         |              |                |              |                 |tracklabel       |
+|         |              |                |              |                 |                 |
 
 ##### Browser (Navigator)
 
 |browser-version |browser-code-name |browser-name |browser-cookie-enabled |browser-language  |browser-online    |browser-platform|browser-product   |browser-geolocation|browser-user-agent     |browser-contains  |
 |----------------|------------------|-------------|-----------------------|------------------|------------------|----------------|------------------|-------------------|-----------------------|------------------|
 |                |                  |             |                       |                  |                  |                |                  |                   |                       |                  |
+
+#### Coming Soon
+
+|coming-soon     |
+|----------------|
+|date            |
+|time            |
+|title           |
+|extraText       |
+|id              |
+|color           |
+|backgroundcolor |
+|backgroundimage |
 
 #### Date and Time
 
@@ -197,6 +235,14 @@ npm install
 |-------------|----------------|
 |             |element         |
 |             |timer           |
+
+##### Skillbar
+
+|skillbar     |
+|-------------|
+|text         |
+|width        |
+|bgcolor      |
 
 #### Tables
 

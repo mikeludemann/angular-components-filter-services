@@ -1,0 +1,6 @@
+<div class="container--accordion" [ngStyle]="containerAccordion">
+  <div #accordion [attr.id]="id" class="accordion--headline" [ngStyle]="accordionHeadline">{{this.headline}}</div>
+  <div class="accordion--panel" [ngStyle]="accordionPanel">
+    <ng-content></ng-content>
+  </div>
+</div>
