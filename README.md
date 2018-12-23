@@ -219,6 +219,15 @@ npm install
 |-------------|--------------|---------------|
 |             |              |               |
 
+#### Loading-Spinner
+
+|loading-spinner |
+|----------------|
+|id              |
+|color           |
+|bgcolor         |
+|size            |
+
 #### QRCode
 
 |qrcode    |
@@ -236,6 +245,19 @@ npm install
 |             |element         |
 |             |timer           |
 
+#### Selection
+
+|selection    |option-group  |option         |
+|-------------|--------------|---------------|
+|id           |id            |id             |
+|form         |label         |label          |
+|size         |disabled      |disabled       |
+|name         |              |value          |
+|autofocus    |              |selected       |
+|disabled     |              |               |
+|multiple     |              |               |
+|required     |              |               |
+
 ##### Skillbar
 
 |skillbar     |
@@ -243,6 +265,16 @@ npm install
 |text         |
 |width        |
 |bgcolor      |
+
+#### Social-Media
+
+|youtube-playlist |youtube    |vimeo       |twitter     |whatsapp    |
+|-----------------|-----------|------------|------------|------------|
+|videolistid      |videoid    |videoid     |timeline    |tel         |
+|width            |width      |width       |style       |text        |
+|height           |height     |height      |            |source      |
+|                 |           |            |            |data        |
+|                 |           |            |            |linktext    |
 
 #### Tables
 

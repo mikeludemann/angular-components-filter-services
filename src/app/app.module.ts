@@ -127,6 +127,15 @@ import { QrcodeComponent } from './components/qrcode/qrcode/qrcode.component';
 import { AccordionComponent } from './components/accordion/accordion/accordion.component';
 import { SkillbarComponent } from './components/skills/skillbar/skillbar.component';
 import { ComingSoonComponent } from './components/coming-soon/coming-soon/coming-soon.component';
+import { SelectComponent } from './components/selection/select/select.component';
+import { OptionGroupComponent } from './components/selection/option-group/option-group.component';
+import { OptionComponent } from './components/selection/option/option.component';
+import { LoadingSpinnerComponent } from './components/loading-spinner/loading-spinner/loading-spinner.component';
+import { YoutubeComponent } from './components/social-media/youtube/youtube.component';
+import { YoutubePlaylistComponent } from './components/social-media/youtube-playlist/youtube-playlist.component';
+import { WhatsappComponent } from './components/social-media/whatsapp/whatsapp.component';
+import { VimeoComponent } from './components/social-media/vimeo/vimeo.component';
+import { TwitterComponent } from './components/social-media/twitter/twitter.component';
 
 @NgModule({
   declarations: [
@@ -235,7 +244,16 @@ import { ComingSoonComponent } from './components/coming-soon/coming-soon/coming
     QrcodeComponent,
     AccordionComponent,
     SkillbarComponent,
-    ComingSoonComponent
+    ComingSoonComponent,
+    SelectComponent,
+    OptionGroupComponent,
+    OptionComponent,
+    LoadingSpinnerComponent,
+    YoutubeComponent,
+    YoutubePlaylistComponent,
+    WhatsappComponent,
+    VimeoComponent,
+    TwitterComponent
   ],
   imports: [
     BrowserModule,
