@@ -291,59 +291,35 @@ npm install
 
 #### Tags [HTML5]
 
-|acronymous    |bigger        |bold          |break         |coding        |down          |delete        |emphrasize    |inserted      |
-|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|
-|              |              |              |              |              |              |              |              |              |
+|acronymous    |bigger        |bold          |break         |coding        |down          |delete        |emphrasize    |inserted      |italic        |marked        |quote         |smaller       |stronger      |up            |variable      |block-quote   |abbreviation  |
+|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|
+|              |              |              |              |              |              |              |              |              |              |              |url           |              |              |              |              |url           |title         |
 
-|italic        |marked        |quote         |smaller       |stronger      |up            |variable      |block-quote   |abbreviation  |
-|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|
-|              |              |url           |              |              |              |              |url           |title         |
 
-|address-block |keyboarddisplay|cite-mode     |pre-mode      |bidirectional |article-mode  |aside-mode    |applet-mode     |bidirectionalisolation  |
-|--------------|---------------|--------------|--------------|--------------|--------------|--------------|----------------|------------------------|
-|              |               |              |              |direction     |              |              |url             |                        |
-|              |               |              |              |              |              |              |objectname      |                        |
-|              |               |              |              |              |              |              |position        |                        |
-|              |               |              |              |              |              |              |alttext         |                        |
-|              |               |              |              |              |              |              |archiveurl      |                        |
-|              |               |              |              |              |              |              |codebaseurl     |                        |
-|              |               |              |              |              |              |              |spacehorizontal |                        |
-|              |               |              |              |              |              |              |spacevertical   |                        |
-|              |               |              |              |              |              |              |height          |                        |
-|              |               |              |              |              |              |              |width           |                        |
-|              |               |              |              |              |              |              |name            |                        |
+|address-block |keyboarddisplay|cite-mode     |pre-mode      |bidirectional |article-mode  |aside-mode    |applet-mode     |bidirectionalisolation  |center-mode   |data-mode     |descriptionlist|descriptionterm|descriptiondescribe|details-mode  |definininginstance |dialog-mode   |fieldset-mode |
+|--------------|---------------|--------------|--------------|--------------|--------------|--------------|----------------|------------------------|--------------|--------------|---------------|---------------|-------------------|--------------|-------------------|--------------|--------------|
+|              |               |              |              |direction     |              |              |url             |                        |              |value         |               |               |                   |open          |id                 |compact       |disabled      |
+|              |               |              |              |              |              |              |objectname      |                        |              |              |               |               |                   |              |title              |              |formname      |
+|              |               |              |              |              |              |              |position        |                        |              |              |               |               |                   |              |                   |              |name          |
+|              |               |              |              |              |              |              |alttext         |                        |              |              |               |               |                   |              |                   |              |              |
+|              |               |              |              |              |              |              |archiveurl      |                        |              |              |               |               |                   |              |                   |              |              |
+|              |               |              |              |              |              |              |codebaseurl     |                        |              |              |               |               |                   |              |                   |              |              |
+|              |               |              |              |              |              |              |spacehorizontal |                        |              |              |               |               |                   |              |                   |              |              |
+|              |               |              |              |              |              |              |spacevertical   |                        |              |              |               |               |                   |              |                   |              |              |
+|              |               |              |              |              |              |              |height          |                        |              |              |               |               |                   |              |                   |              |              |
+|              |               |              |              |              |              |              |width           |                        |              |              |               |               |                   |              |                   |              |              |
+|              |               |              |              |              |              |              |name            |                        |              |              |               |               |                   |              |                   |              |              |
 
-|center-mode   |data-mode     |descriptionlist|descriptionterm|descriptiondescribe|details-mode  |definininginstance |dialog-mode   |fieldset-mode |
-|--------------|--------------|---------------|---------------|-------------------|--------------|-------------------|--------------|--------------|
-|              |value         |               |               |                   |open          |id                 |compact       |disabled      |
-|              |              |               |               |                   |              |title              |              |formname      |
-|              |              |               |               |                   |              |                   |              |name          |
-
-|legend-mode   |figure-mode   |figcaption-mode |frame-mode    |frameset-mode |noframes-mode |main-mode     |meter-mode    |navigation    |
-|--------------|--------------|----------------|--------------|--------------|--------------|--------------|--------------|--------------|
-|position      |              |                |border        |cols          |              |              |value         |              |
-|              |              |                |urllong       |rows          |              |              |min           |              |
-|              |              |                |source        |              |              |              |max           |              |
-|              |              |                |height        |              |              |              |              |              |
-|              |              |                |width         |              |              |              |              |              |
-|              |              |                |noresize      |              |              |              |              |              |
-|              |              |                |name          |              |              |              |              |              |
-|              |              |                |scrollformat  |              |              |              |              |              |
-
-|output-mode   |progress-mode |ruby-mode     |rubyterm      |rubyparse     |sdelete       |strikedelete  |summary-mode  |wordbreakopportunity      |
-|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------------------|
-|name          |value         |              |              |              |              |              |              |                          |
-|form          |max           |              |              |              |              |              |              |                          |
-|for           |              |              |              |              |              |              |              |                          |
-
-|template-mode |iframe-mode  |partingline  |symbol       |headline     |text-container |text-element |
-|--------------|-------------|-------------|-------------|-------------|---------------|-------------|
-|              |class        |id           |id           |id           |               |             |
-|              |url          |class        |codeformat   |size         |               |             |
-|              |height       |orientation  |code         |title        |               |             |
-|              |width        |             |             |             |               |             |
-|              |srcdoc       |             |             |             |               |             |
-|              |sandbox      |             |             |             |               |             |
+|legend-mode   |figure-mode   |figcaption-mode |frame-mode    |frameset-mode |noframes-mode |main-mode     |meter-mode    |navigation    |output-mode   |progress-mode |ruby-mode     |rubyterm      |rubyparse     |sdelete       |strikedelete  |summary-mode  |wordbreakopportunity      |template-mode |iframe-mode  |partingline  |symbol       |headline     |text-container |text-element |
+|--------------|--------------|----------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------------------|--------------|-------------|-------------|-------------|-------------|---------------|-------------|
+|position      |              |                |border        |cols          |              |              |value         |              |name          |value         |              |              |              |              |              |              |                          |              |class        |id           |id           |id           |               |             |
+|              |              |                |urllong       |rows          |              |              |min           |              |form          |max           |              |              |              |              |              |              |                          |              |url          |class        |codeformat   |size         |               |             |
+|              |              |                |source        |              |              |              |max           |              |for           |              |              |              |              |              |              |              |                          |              |height       |orientation  |code         |title        |               |             |
+|              |              |                |height        |              |              |              |              |              |              |              |              |              |              |              |              |              |                          |              |width        |             |             |             |               |             |
+|              |              |                |width         |              |              |              |              |              |              |              |              |              |              |              |              |              |                          |              |srcdoc       |             |             |             |               |             |
+|              |              |                |noresize      |              |              |              |              |              |              |              |              |              |              |              |              |              |                          |              |sandbox      |             |             |             |               |             |
+|              |              |                |name          |              |              |              |              |              |              |              |              |              |              |              |              |              |                          |              |             |             |             |             |               |             |
+|              |              |                |scrollformat  |              |              |              |              |              |              |              |              |              |              |              |              |              |                          |              |             |             |             |             |               |             |
 
 ### Filter / Pipes
 
@@ -382,9 +358,17 @@ npm install
 
 ### Services
 
-|Calculate|Clock    |
-|---------|---------|
-|sum      |         |
+|Calculate|Clock    |Utilities   |datetime      |length        |speed         |temperature   |weight        |
+|---------|---------|------------|--------------|--------------|--------------|--------------|--------------|
+|sum      |         |hexadecimal |year          |TBD           |TBD           |TBD           |TBD           |
+|         |         |decrement   |month         |
+|         |         |increment   |monthAtString |
+|         |         |add         |day           |
+|         |         |subtract    |dayAtString   |
+|         |         |divide      |hour          |
+|         |         |multiply    |minute        |
+|         |         |modulo      |second        |
+|         |         |            |millisecond   |
 
 ### Interface
 

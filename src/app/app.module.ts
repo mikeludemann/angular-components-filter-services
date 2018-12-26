@@ -6,6 +6,11 @@ import { HttpModule } from '@angular/http';
 
 /* Services */
 import { CalculateService } from './services/calculate.service';
+import { DatetimeService } from './services/datetime.service';
+import { LengthService } from './services/length.service';
+import { WeightService } from './services/weight.service';
+import { SpeedService } from './services/speed.service';
+import { TemperatureService } from './services/temperature.service';
 
 /* Pipes (Module) */
 import { PipesModule } from './pipes/pipes.module';
@@ -262,7 +267,12 @@ import { TwitterComponent } from './components/social-media/twitter/twitter.comp
     PipesModule
   ],
   providers: [
-    CalculateService
+    CalculateService,
+    DatetimeService,
+    LengthService,
+    WeightService,
+    SpeedService,
+    TemperatureService
   ],
   bootstrap: [
     AppComponent
