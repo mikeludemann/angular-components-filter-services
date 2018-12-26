@@ -141,6 +141,14 @@ import { YoutubePlaylistComponent } from './components/social-media/youtube-play
 import { WhatsappComponent } from './components/social-media/whatsapp/whatsapp.component';
 import { VimeoComponent } from './components/social-media/vimeo/vimeo.component';
 import { TwitterComponent } from './components/social-media/twitter/twitter.component';
+import { InstagramComponent } from './components/social-media/instagram/instagram.component';
+import { GooglePlusComponent } from './components/social-media/google-plus/google-plus.component';
+import { FacebookMessengerComponent } from './components/social-media/facebook-messenger/facebook-messenger.component';
+import { FacebookComponent } from './components/social-media/facebook/facebook.component';
+import { PinterestBookmarkComponent } from './components/social-media/pinterest/pinterest-bookmark/pinterest-bookmark.component';
+import { PinterestButtonFollowComponent } from './components/social-media/pinterest/pinterest-button-follow/pinterest-button-follow.component';
+import { PinterestPinComponent } from './components/social-media/pinterest/pinterest-pin/pinterest-pin.component';
+import { PinterestBoardComponent } from './components/social-media/pinterest/pinterest-board/pinterest-board.component';
 
 @NgModule({
   declarations: [
@@ -258,7 +266,15 @@ import { TwitterComponent } from './components/social-media/twitter/twitter.comp
     YoutubePlaylistComponent,
     WhatsappComponent,
     VimeoComponent,
-    TwitterComponent
+    TwitterComponent,
+    InstagramComponent,
+    GooglePlusComponent,
+    FacebookMessengerComponent,
+    FacebookComponent,
+    PinterestBookmarkComponent,
+    PinterestButtonFollowComponent,
+    PinterestPinComponent,
+    PinterestBoardComponent
   ],
   imports: [
     BrowserModule,

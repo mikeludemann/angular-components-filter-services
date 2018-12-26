@@ -268,13 +268,13 @@ npm install
 
 #### Social-Media
 
-|youtube-playlist |youtube    |vimeo       |twitter     |whatsapp    |
-|-----------------|-----------|------------|------------|------------|
-|videolistid      |videoid    |videoid     |timeline    |tel         |
-|width            |width      |width       |style       |text        |
-|height           |height     |height      |            |source      |
-|                 |           |            |            |data        |
-|                 |           |            |            |linktext    |
+|youtube-playlist |youtube    |vimeo       |twitter     |whatsapp    |instagram       |google-plus     |facebook        |facebook-messenger |pinterest-bookmark |pinterest-button-follow |pinterest-pin     |pinterest-board   |pinterest-profile |
+|-----------------|-----------|------------|------------|------------|----------------|----------------|----------------|-------------------|-------------------|------------------------|------------------|------------------|------------------|
+|videolistid      |videoid    |videoid     |timeline    |tel         |instagramPostID |googlePlusID    |postURL         |username           |language           |follow                  |size              |boardUrl          |username          |
+|width            |width      |width       |style       |text        |                |postID          |                |text               |round              |fullName                |descriptionHide   |format            |format            |
+|height           |height     |height      |            |source      |                |                |                |                   |large              |                        |pinID             |boardWidth        |boardWidth        |
+|                 |           |            |            |data        |                |                |                |                   |                   |                        |                  |scaleHeight       |scaleHeight       |
+|                 |           |            |            |linktext    |                |                |                |                   |                   |                        |                  |scaleWidth        |scaleWidth        |
 
 #### Tables
 
