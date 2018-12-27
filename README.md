@@ -176,13 +176,62 @@ npm install
 |backgroundcolor |
 |backgroundimage |
 
+#### Data Security
+
+|analytics-advertising |data-collection       |data-protection-officer |data-protection     |data-security       |general-information     |newsletter        |online-marketing-affiliate-program |payment-service     |plugins-tools       |social-media        |
+|----------------------|----------------------|------------------------|--------------------|--------------------|------------------------|------------------|-----------------------------------|--------------------|--------------------|--------------------|
+|headline              |                      |firstname               |                    |headline            |firstname               |                  |                                   |                    |                    |                    |
+|                      |                      |lastname                |                    |                    |lastname                |                  |                                   |                    |                    |                    |
+|                      |                      |street                  |                    |                    |street                  |                  |                                   |                    |                    |                    |
+|                      |                      |streetnumber            |                    |                    |streetnumber            |                  |                                   |                    |                    |                    |
+|                      |                      |postalcode              |                    |                    |postalcode              |                  |                                   |                    |                    |                    |
+|                      |                      |city                    |                    |                    |city                    |                  |                                   |                    |                    |                    |
+|                      |                      |telephone               |                    |                    |telephone               |                  |                                   |                    |                    |                    |
+|                      |                      |email                   |                    |                    |email                   |                  |                                   |                    |                    |                    |
+
+##### Data Security (Sub - Social Media)
+
+|google-plus-plugin |instagram-plugin   |linkedin-plugin    |pinterest-plugin   |tumblr-plugin      |xing-plugin        |
+|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|
+|                   |                   |                   |                   |                   |                   |
+
+##### Data Security (Sub - Online Marketing Affiliate Program)
+
+|amazon |
+|-------|
+|       |
+
+##### Data Security (Sub - Payment Service)
+
+|klarna   |paydirekt|paypal   |sofortueberweisung |
+|---------|---------|---------|-------------------|
+|         |         |         |                   |
+
+##### Data Security (Sub - Plugins Tools)
+
+|google-maps-plugin |google-web-fonts-plugin |soundcloud-plugin  |spotify-plugin     |vimeo-plugin       |youtube-plugin     |
+|-------------------|------------------------|-------------------|-------------------|-------------------|-------------------|
+|                   |                        |                   |                   |                   |                   |
+
+##### Data Security (Sub - Newsletter)
+
+|cleverelements     |cleverreach        |klick-tipp         |mailchimp          |newsletter2go      |rapidmail          |
+|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|
+|                   |                   |                   |                   |                   |                   |
+
+##### Data Security (Sub - Analytics Advertising)
+
+|etracker           |facebook-pixel     |google-adsense     |google-adwords-conversion-tracking |google-analytics   |google-analytics-remarketing |google-recaptcha   |matomo  |wordpress-stats    |
+|-------------------|-------------------|-------------------|-----------------------------------|-------------------|-----------------------------|-------------------|--------|-------------------|
+|                   |                   |                   |                                   |                   |                             |                   |        |                   |
+
 #### Date and Time
 
 |year         |month         |day           |week          |minute        |second        |millisecond   |hour          |
 |-------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|
 |             |format        |              |              |              |              |              |              |
 
-##### Timer
+##### Date and Time (Sub - Timer)
 
 |clock-time   |countdown-timer |
 |-------------|----------------|
@@ -358,17 +407,50 @@ npm install
 
 ### Services
 
-|Calculate|Clock    |Utilities   |datetime      |length        |speed         |temperature   |weight        |
-|---------|---------|------------|--------------|--------------|--------------|--------------|--------------|
-|sum      |         |hexadecimal |year          |TBD           |TBD           |TBD           |TBD           |
-|         |         |decrement   |month         |
-|         |         |increment   |monthAtString |
-|         |         |add         |day           |
-|         |         |subtract    |dayAtString   |
-|         |         |divide      |hour          |
-|         |         |multiply    |minute        |
-|         |         |modulo      |second        |
-|         |         |            |millisecond   |
+|Calculate|Clock    |Utilities   |datetime      |length          |speed         |temperature        |weight         |
+|---------|---------|------------|--------------|----------------|--------------|-------------------|---------------|
+|sum      |         |hexadecimal |year          |feetToMeter     |mphToKPH      |celsiusToFahrenheit|poundToKilogram|
+|         |         |decrement   |month         |feetToInch      |mphToKnots    |fahrenheitToCelsius|poundToOunce   |
+|         |         |increment   |monthAtString |feetToCM        |mphToMach     |                   |poundToGram    |
+|         |         |add         |day           |feetToYard      |kphToMPH      |                   |poundToStone   |
+|         |         |subtract    |dayAtString   |feetToKilometer |kphToKnots    |                   |KilogramToPound|
+|         |         |divide      |hour          |feetToMile      |kphToMach     |                   |KilogramToOunce|
+|         |         |multiply    |minute        |meterToFeet     |knotsToMPH    |                   |KilogramToGram |
+|         |         |modulo      |second        |meterToInch     |knotsToKPH    |                   |KilogramToStone|
+|         |         |            |millisecond   |meterToCM       |knotsToMach   |                   |OunceToPound   |
+|         |         |            |              |meterToYard     |machToMPH     |                   |OunceToKilogram|
+|         |         |            |              |meterToKilometer|machToKPH     |                   |OunceToGram    |
+|         |         |            |              |meterToMile     |machToKnots   |                   |OunceToStone   |
+|         |         |            |              |inchToMeter     |              |                   |GramToPound    |
+|         |         |            |              |inchToFeet      |              |                   |GramToKilogram |
+|         |         |            |              |inchToCM        |              |                   |GramToOunce    |
+|         |         |            |              |inchToYard      |              |                   |GramToStone    |
+|         |         |            |              |inchToKilometer |              |                   |StoneToPound   |
+|         |         |            |              |inchToMile      |              |                   |StoneToKilogram|
+|         |         |            |              |cmToFeet        |              |                   |StoneToOunce   |
+|         |         |            |              |cmToInch        |              |                   |StoneToGram    |
+|         |         |            |              |cmToMeter       |              |                   |               |
+|         |         |            |              |cmToYard        |              |                   |               |
+|         |         |            |              |cmToKilometer   |              |                   |               |
+|         |         |            |              |cmToMile        |              |                   |               |
+|         |         |            |              |yardToFeet      |              |                   |               |
+|         |         |            |              |yardToInch      |              |                   |               |
+|         |         |            |              |yardToMeter     |              |                   |               |
+|         |         |            |              |yardToCM        |              |                   |               |
+|         |         |            |              |yardToKilometer |              |                   |               |
+|         |         |            |              |yardToMile      |              |                   |               |
+|         |         |            |              |kilometerToFeet |              |                   |               |
+|         |         |            |              |kilometerToInch |              |                   |               |
+|         |         |            |              |kilometerToMeter|              |                   |               |
+|         |         |            |              |kilometerToYard |              |                   |               |
+|         |         |            |              |kilometerToCM   |              |                   |               |
+|         |         |            |              |kilometerToMile |              |                   |               |
+|         |         |            |              |mileToFeet      |              |                   |               |
+|         |         |            |              |mileToInch      |              |                   |               |
+|         |         |            |              |mileToMeter     |              |                   |               |
+|         |         |            |              |mileToYard      |              |                   |               |
+|         |         |            |              |mileToCM        |              |                   |               |
+|         |         |            |              |mileToKilometer |              |                   |               |
 
 ### Interface
 

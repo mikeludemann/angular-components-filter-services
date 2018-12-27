@@ -1,0 +1,17 @@
+import { Component, OnInit, Input } from '@angular/core';
+
+@Component({
+  selector: 'data-security',
+  templateUrl: './data-security.component.html',
+  styleUrls: ['./data-security.component.css']
+})
+export class DataSecurityComponent implements OnInit {
+
+  @Input() headline: string;
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
