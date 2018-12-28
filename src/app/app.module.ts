@@ -149,6 +149,8 @@ import { PinterestBookmarkComponent } from './components/social-media/pinterest/
 import { PinterestButtonFollowComponent } from './components/social-media/pinterest/pinterest-button-follow/pinterest-button-follow.component';
 import { PinterestPinComponent } from './components/social-media/pinterest/pinterest-pin/pinterest-pin.component';
 import { PinterestBoardComponent } from './components/social-media/pinterest/pinterest-board/pinterest-board.component';
+import { ContactFormComponent } from './components/forms/contact-form/contact-form.component';
+import { LegalFormComponent } from './components/forms/legal-form/legal-form.component';
 
 @NgModule({
   declarations: [
@@ -274,7 +276,10 @@ import { PinterestBoardComponent } from './components/social-media/pinterest/pin
     PinterestBookmarkComponent,
     PinterestButtonFollowComponent,
     PinterestPinComponent,
-    PinterestBoardComponent
+    PinterestBoardComponent,
+    ContactFormComponent,
+    LegalFormComponent
+    // Data Security
   ],
   imports: [
     BrowserModule,

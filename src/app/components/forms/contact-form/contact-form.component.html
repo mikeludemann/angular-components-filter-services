@@ -1,0 +1,42 @@
+<div class="contact--container">
+  <div class="contact--information--person">
+    <span #salutation>
+      {{handleSalutation()}}
+    </span>
+    <span #title>
+      {{handleTitle()}}
+    </span>
+    <span class="fullName">
+      <span class="firstName">{{this.firstName}}</span>
+      <span #secondname>
+        {{handleSecondName()}}
+      </span>
+      <span class="lastName">{{this.lastName}}</span>
+    </span>
+  </div>
+  <div class="contact--information--street">
+    <span class="street">{{this.street}}</span>
+    <span class="streetNumber">{{this.streetNumber}}</span>
+  </div>
+  <div class="contact--information--place">
+    <span class="postalcode">{{this.postalcode}}</span>
+    <span class="place">{{this.place}}</span>
+  </div>
+  <div #country class="contact--information--country">
+    {{handleCountry()}}
+  </div>
+  <div class="contact--information--forms">
+    <div #telephone>
+      {{this.handleTelephone()}}
+    </div>
+    <div #telefax>
+      {{this.handleTelefax()}}
+    </div>
+    <div #email>
+      {{this.handleEmail()}}
+    </div>
+    <div #homepage>
+      {{this.handleHomepage()}}
+    </div>
+  </div>
+</div>

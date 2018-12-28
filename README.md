@@ -238,6 +238,33 @@ npm install
 |             |date            |
 |             |time            |
 
+#### Forms
+
+|legal-form   |contact-form  |
+|-------------|--------------|
+|headline     |firstName     |
+|registerTitle|lastName      |
+|registerForm |street        |
+|vatTitle     |streetNumber  |
+|vatForm      |postalcode    |
+|taxTitle     |place         |
+|tax          |salutation    |
+|lawTitle     |title         |
+|lawName      |secondName    |
+|             |country       |
+|             |telephone     |
+|             |telefax       |
+|             |email         |
+|             |homepage      |
+|             |homepageText  |
+
+##### Forms (Sub - Elements)
+
+|             |              |
+|-------------|--------------|
+|             |              |
+|             |              |
+
 #### Includes
 
 |footer-mode  |header-mode   |head-mode     |base-mode     |base-font     |link-css      |title-mode    |no-script     |meta-mode     |script-mode   |
