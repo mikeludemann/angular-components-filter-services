@@ -1,0 +1,10 @@
+<div #avatar [attr.class]="class" [attr.data-firstname]="firstname" [attr.data-secondname]="secondname" [attr.data-lastname]="lastname" [ngStyle]="container" (mouseover)="avatarShow(1)" (mouseout)="avatarShow(0)">
+  <div class="main" [ngStyle]="main">
+    {{this.initialName(this.firstname, this.lastname)}}
+  </div>
+  <div class="overlay" [ngStyle]="overlay">
+    <a [attr.href]="'mailto:' + this.email" class="icon" [ngStyle]="icon">
+      <i class="fa fa-user"></i>
+    </a>
+  </div>
+</div>

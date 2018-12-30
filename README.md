@@ -157,6 +157,22 @@ npm install
 |         |              |                |              |                 |tracklabel       |
 |         |              |                |              |                 |                 |
 
+#### Avatar
+
+|avatar          |
+|----------------|
+|class           |
+|firstname       |
+|secondname      |
+|lastname        |
+|email           |
+|size            |
+|textsize        |
+|color           |
+|bgcolor         |
+|overcolor       |
+|borderradius    |
+
 ##### Browser (Navigator)
 
 |browser-version |browser-code-name |browser-name |browser-cookie-enabled |browser-language  |browser-online    |browser-platform|browser-product   |browser-geolocation|browser-user-agent     |browser-contains  |
@@ -260,10 +276,18 @@ npm install
 
 ##### Forms (Sub - Elements)
 
-|             |              |
-|-------------|--------------|
-|             |              |
-|             |              |
+|input-with-headline |input-field          |input-with-datalist  |textarea-field       |button-field         |
+|--------------------|---------------------|---------------------|---------------------|---------------------|
+|mainclass           |mainclass            |mainclass            |containerclass       |id                   |
+|containerclass      |containerclass       |containerclass       |textareaclass        |class                |
+|headlineclass       |inputclass           |inputclass           |maxlength            |type                 |
+|inputclass          |id                   |id                   |name                 |name                 |
+|id                  |name                 |name                 |rows                 |value                |
+|headline            |type                 |type                 |cols                 |formID               |
+|name                |value                |value                |placeholder          |formAction           |
+|type                |placeholder          |placeholder          |required             |formEnctype          |
+|value               |                     |datalistID           |autofocus            |formMethod           |
+|placeholder         |                     |                     |                     |                     |
 
 #### Includes
 

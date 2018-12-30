@@ -1,0 +1,10 @@
+<div [attr.class]="mainclass">
+  <div [attr.class]="containerclass">
+    <div [attr.class]="inputclass">
+      <input [attr.type]="type" [attr.id]="id" [attr.name]="name" [attr.value]="value" [attr.placeholder]="placeholder" [attr.list]="datalistID"/>
+    </div>
+  </div>
+  <datalist [attr.id]="datalistID">
+    <ng-content></ng-content>
+  </datalist>
+</div>

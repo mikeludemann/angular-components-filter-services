@@ -151,6 +151,12 @@ import { PinterestPinComponent } from './components/social-media/pinterest/pinte
 import { PinterestBoardComponent } from './components/social-media/pinterest/pinterest-board/pinterest-board.component';
 import { ContactFormComponent } from './components/forms/contact-form/contact-form.component';
 import { LegalFormComponent } from './components/forms/legal-form/legal-form.component';
+import { InputWithHeadlineComponent } from './components/forms/elements/input-with-headline/input-with-headline.component';
+import { InputFieldComponent } from './components/forms/elements/input-field/input-field.component';
+import { InputWithDatalistComponent } from './components/forms/elements/input-with-datalist/input-with-datalist.component';
+import { TextareaComponent } from './components/forms/elements/textarea/textarea.component';
+import { ButtonComponent } from './components/forms/elements/button/button.component';
+import { AvatarComponent } from './components/avatar/avatar/avatar.component';
 
 @NgModule({
   declarations: [
@@ -278,7 +284,13 @@ import { LegalFormComponent } from './components/forms/legal-form/legal-form.com
     PinterestPinComponent,
     PinterestBoardComponent,
     ContactFormComponent,
-    LegalFormComponent
+    LegalFormComponent,
+    InputWithHeadlineComponent,
+    InputFieldComponent,
+    InputWithDatalistComponent,
+    TextareaComponent,
+    ButtonComponent,
+    AvatarComponent
     // Data Security
   ],
   imports: [
