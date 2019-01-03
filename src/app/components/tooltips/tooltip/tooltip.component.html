@@ -1,0 +1,8 @@
+<div #tooltip class="tooltip">
+  <div class="tooltip-text">
+    {{this.defaulttext}}
+  </div>
+  <div [attr.class]="'tooltip-text-' + this.position">
+    {{this.tooltipstext}}
+  </div>
+</div>

@@ -328,6 +328,14 @@ npm install
 |bgcolor         |
 |size            |
 
+#### Profile
+
+|profile      |
+|-------------|
+|position     |
+|defaultText  |
+|tooltipText  |
+
 #### QRCode
 
 |qrcode    |
@@ -420,6 +428,14 @@ npm install
 |              |              |                |noresize      |              |              |              |              |              |              |              |              |              |              |              |              |              |                          |              |sandbox      |             |             |             |               |             |
 |              |              |                |name          |              |              |              |              |              |              |              |              |              |              |              |              |              |                          |              |             |             |             |             |               |             |
 |              |              |                |scrollformat  |              |              |              |              |              |              |              |              |              |              |              |              |              |                          |              |             |             |             |             |               |             |
+
+#### Tooltips
+
+|tooltip      |
+|-------------|
+|position     |
+|defaultText  |
+|tooltipText  |
 
 ### Filter / Pipes
 

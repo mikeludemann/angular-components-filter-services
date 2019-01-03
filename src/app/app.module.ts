@@ -157,6 +157,8 @@ import { InputWithDatalistComponent } from './components/forms/elements/input-wi
 import { TextareaComponent } from './components/forms/elements/textarea/textarea.component';
 import { ButtonComponent } from './components/forms/elements/button/button.component';
 import { AvatarComponent } from './components/avatar/avatar/avatar.component';
+import { TooltipComponent } from './components/tooltips/tooltip/tooltip.component';
+import { ProfileComponent } from './components/profile/profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -290,7 +292,9 @@ import { AvatarComponent } from './components/avatar/avatar/avatar.component';
     InputWithDatalistComponent,
     TextareaComponent,
     ButtonComponent,
-    AvatarComponent
+    AvatarComponent,
+    TooltipComponent,
+    ProfileComponent
     // Data Security
   ],
   imports: [
