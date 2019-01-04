@@ -328,13 +328,45 @@ npm install
 |bgcolor         |
 |size            |
 
+#### Overlay
+
+|content-overlay |content-image-overlay |
+|----------------|----------------------|
+|mainclass       |containerclass        |
+|maintext        |maintext              |
+|text            |alttext               |
+|size            |source                |
+|borderradius    |textsize              |
+|textsize        |size                  |
+|color           |borderradius          |
+|bgcolor         |color                 |
+|overcolor       |bgcolor               |
+|overbgcolor     |                      |
+|                |                      |
+
+#### Popover
+
+|popover      |
+|-------------|
+|position     |
+|defaulttext  |
+|popovertext  |
+
+#### Popups
+
+|popup        |
+|-------------|
+|position     |
+|defaulttext  |
+|popuptext    |
+
 #### Profile
 
 |profile      |
 |-------------|
 |position     |
-|defaultText  |
-|tooltipText  |
+|defaulttext  |
+|tooltiptext  |
 
 #### QRCode
 

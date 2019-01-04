@@ -1,0 +1,8 @@
+<div #popover class="popover">
+  <div class="popover-text">
+    {{this.defaulttext}}
+  </div>
+  <div [attr.class]="'popover-text-' + this.position">
+    {{this.popovertext}}
+  </div>
+</div>

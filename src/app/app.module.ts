@@ -159,6 +159,10 @@ import { ButtonComponent } from './components/forms/elements/button/button.compo
 import { AvatarComponent } from './components/avatar/avatar/avatar.component';
 import { TooltipComponent } from './components/tooltips/tooltip/tooltip.component';
 import { ProfileComponent } from './components/profile/profile/profile.component';
+import { PopupComponent } from './components/popups/popup/popup.component';
+import { PopoverComponent } from './components/popover/popover/popover.component';
+import { ContentOverlayComponent } from './components/overlay/content-overlay/content-overlay.component';
+import { ContentImageOverlayComponent } from './components/overlay/content-image-overlay/content-image-overlay.component';
 
 @NgModule({
   declarations: [
@@ -294,7 +298,11 @@ import { ProfileComponent } from './components/profile/profile/profile.component
     ButtonComponent,
     AvatarComponent,
     TooltipComponent,
-    ProfileComponent
+    ProfileComponent,
+    PopupComponent,
+    PopoverComponent,
+    ContentOverlayComponent,
+    ContentImageOverlayComponent
     // Data Security
   ],
   imports: [

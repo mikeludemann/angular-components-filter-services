@@ -1,0 +1,8 @@
+<div #overlay [attr.class]="class" [ngStyle]="container" (mouseover)="handleVisible(1)" (mouseout)="handleVisible(0)">
+  <div class="main" [ngStyle]="main">
+    <div [ngStyle]="txt">{{this.maintext}}</div>
+  </div>
+  <div class="overlay" [ngStyle]="c_overlay">
+    <div [ngStyle]="txt">{{this.text}}</div>
+  </div>
+</div>
