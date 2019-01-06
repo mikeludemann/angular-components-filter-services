@@ -330,19 +330,18 @@ npm install
 
 #### Overlay
 
-|content-overlay |content-image-overlay |
-|----------------|----------------------|
-|mainclass       |containerclass        |
-|maintext        |maintext              |
-|text            |alttext               |
-|size            |source                |
-|borderradius    |textsize              |
-|textsize        |size                  |
-|color           |borderradius          |
-|bgcolor         |color                 |
-|overcolor       |bgcolor               |
-|overbgcolor     |                      |
-|                |                      |
+|content-overlay |content-image-overlay |image-content-overlay |image-overlay         |
+|----------------|----------------------|----------------------|----------------------|
+|mainclass       |containerclass        |containerclass        |containerclass        |
+|maintext        |maintext              |maintext              |mainimage             |
+|text            |alttext               |alttext               |mainalttext           |
+|size            |source                |source                |image                 |
+|borderradius    |textsize              |textsize              |alttext               |
+|textsize        |size                  |size                  |textsize              |
+|color           |borderradius          |borderradius          |size                  |
+|bgcolor         |color                 |color                 |borderradius          |
+|overcolor       |bgcolor               |bgcolor               |                      |
+|overbgcolor     |                      |                      |                      |
 
 #### Popover
 

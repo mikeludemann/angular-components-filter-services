@@ -1,0 +1,8 @@
+<div #imagetwooverlay [attr.class]="containerclass" [ngStyle]="container" (mouseover)="handleVisible(1)" (mouseout)="handleVisible(0)">
+  <div [attr.class]="main" [ngStyle]="main">
+    <img [attr.src]="mainimage" [attr.alt]="mainalttext" class="icon-main" [ngStyle]="mainicon">
+  </div>
+  <div class="overlay" [ngStyle]="overlay">
+    <img [attr.src]="image" [attr.alt]="alttext" class="icon" [ngStyle]="icon">
+  </div>
+</div>

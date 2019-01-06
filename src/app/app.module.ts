@@ -163,6 +163,8 @@ import { PopupComponent } from './components/popups/popup/popup.component';
 import { PopoverComponent } from './components/popover/popover/popover.component';
 import { ContentOverlayComponent } from './components/overlay/content-overlay/content-overlay.component';
 import { ContentImageOverlayComponent } from './components/overlay/content-image-overlay/content-image-overlay.component';
+import { ImageContentOverlayComponent } from './components/overlay/image-content-overlay/image-content-overlay.component';
+import { ImageOverlayComponent } from './components/overlay/image-overlay/image-overlay.component';
 
 @NgModule({
   declarations: [
@@ -302,7 +304,9 @@ import { ContentImageOverlayComponent } from './components/overlay/content-image
     PopupComponent,
     PopoverComponent,
     ContentOverlayComponent,
-    ContentImageOverlayComponent
+    ContentImageOverlayComponent,
+    ImageContentOverlayComponent,
+    ImageOverlayComponent
     // Data Security
   ],
   imports: [
