@@ -328,6 +328,14 @@ npm install
 |bgcolor         |
 |size            |
 
+#### Modal
+
+|simple-modal    |
+|----------------|
+|id              |
+|headline        |
+|footer          |
+
 #### Overlay
 
 |content-overlay |content-image-overlay |image-content-overlay |image-overlay         |
@@ -467,6 +475,12 @@ npm install
 |position     |
 |defaultText  |
 |tooltipText  |
+
+### Directive
+
+|bgcolor  |color    |family-type |size-type   |position    |underline   |underlineHover |
+|---------|---------|------------|------------|------------|------------|---------------|
+|color    |color    |type        |size        |position    |            |               |
 
 ### Filter / Pipes
 

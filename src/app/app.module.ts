@@ -165,9 +165,20 @@ import { ContentOverlayComponent } from './components/overlay/content-overlay/co
 import { ContentImageOverlayComponent } from './components/overlay/content-image-overlay/content-image-overlay.component';
 import { ImageContentOverlayComponent } from './components/overlay/image-content-overlay/image-content-overlay.component';
 import { ImageOverlayComponent } from './components/overlay/image-overlay/image-overlay.component';
+import { SimpleModalComponent } from './components/modal/simple-modal/simple-modal.component';
+
+/* Directive */
+import { UnderlineDirective } from './directive/underline.directive';
+import { UnderlineHoverDirective } from './directive/underline-hover.directive';
+import { BgcolorDirective } from './directive/bgcolor.directive';
+import { ColorTypeDirective } from './directive/color-type.directive';
+import { SizeTypeDirective } from './directive/size-type.directive';
+import { FamilyTypeDirective } from './directive/family-type.directive';
+import { PositionTextDirective } from './directive/position-text.directive';
 
 @NgModule({
   declarations: [
+    // Components
     AppComponent,
     AudioComponent,
     VideoComponent,
@@ -306,8 +317,18 @@ import { ImageOverlayComponent } from './components/overlay/image-overlay/image-
     ContentOverlayComponent,
     ContentImageOverlayComponent,
     ImageContentOverlayComponent,
-    ImageOverlayComponent
-    // Data Security
+    ImageOverlayComponent,
+    SimpleModalComponent,
+    // Data Security - import
+
+    // Directives
+    UnderlineDirective,
+    UnderlineHoverDirective,
+    BgcolorDirective,
+    ColorTypeDirective,
+    SizeTypeDirective,
+    FamilyTypeDirective,
+    PositionTextDirective
   ],
   imports: [
     BrowserModule,
