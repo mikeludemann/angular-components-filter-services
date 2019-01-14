@@ -15,6 +15,15 @@ import { TemperatureService } from './services/temperature.service';
 /* Pipes (Module) */
 import { PipesModule } from './pipes/pipes.module';
 
+/* Directive */
+import { UnderlineDirective } from './directive/underline.directive';
+import { UnderlineHoverDirective } from './directive/underline-hover.directive';
+import { BgcolorDirective } from './directive/bgcolor.directive';
+import { ColorTypeDirective } from './directive/color-type.directive';
+import { SizeTypeDirective } from './directive/size-type.directive';
+import { FamilyTypeDirective } from './directive/family-type.directive';
+import { PositionTextDirective } from './directive/position-text.directive';
+
 /* Components */
 import { AppComponent } from './app.component';
 import { AudioComponent } from './components/assets/audio/audio.component';
@@ -166,15 +175,9 @@ import { ContentImageOverlayComponent } from './components/overlay/content-image
 import { ImageContentOverlayComponent } from './components/overlay/image-content-overlay/image-content-overlay.component';
 import { ImageOverlayComponent } from './components/overlay/image-overlay/image-overlay.component';
 import { SimpleModalComponent } from './components/modal/simple-modal/simple-modal.component';
-
-/* Directive */
-import { UnderlineDirective } from './directive/underline.directive';
-import { UnderlineHoverDirective } from './directive/underline-hover.directive';
-import { BgcolorDirective } from './directive/bgcolor.directive';
-import { ColorTypeDirective } from './directive/color-type.directive';
-import { SizeTypeDirective } from './directive/size-type.directive';
-import { FamilyTypeDirective } from './directive/family-type.directive';
-import { PositionTextDirective } from './directive/position-text.directive';
+import { GoogleRecaptchaComponent } from './components/google/google-recaptcha/google-recaptcha.component';
+import { GoogleFontComponent } from './components/google/google-font/google-font.component';
+import { GoogleTranslateComponent } from './components/google/google-translate/google-translate.component';
 
 @NgModule({
   declarations: [
@@ -319,6 +322,9 @@ import { PositionTextDirective } from './directive/position-text.directive';
     ImageContentOverlayComponent,
     ImageOverlayComponent,
     SimpleModalComponent,
+    GoogleRecaptchaComponent,
+    GoogleFontComponent,
+    GoogleTranslateComponent,
     // Data Security - import
 
     // Directives

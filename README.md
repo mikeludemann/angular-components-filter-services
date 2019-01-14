@@ -289,6 +289,12 @@ npm install
 |value               |                     |datalistID           |autofocus            |formMethod           |
 |placeholder         |                     |                     |                     |                     |
 
+#### Google
+
+|google-recaptcha |google-font      |google-translate |
+|-----------------|-----------------|-----------------|
+|code             |font             |                 |
+
 #### Includes
 
 |footer-mode  |header-mode   |head-mode     |base-mode     |base-font     |link-css      |title-mode    |no-script     |meta-mode     |script-mode   |
