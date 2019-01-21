@@ -178,6 +178,8 @@ import { SimpleModalComponent } from './components/modal/simple-modal/simple-mod
 import { GoogleRecaptchaComponent } from './components/google/google-recaptcha/google-recaptcha.component';
 import { GoogleFontComponent } from './components/google/google-font/google-font.component';
 import { GoogleTranslateComponent } from './components/google/google-translate/google-translate.component';
+import { MmenuComponent } from './components/plugins/mmenu/mmenu.component';
+import { SlickSliderComponent } from './components/plugins/slick-slider/slick-slider.component';
 
 @NgModule({
   declarations: [
@@ -325,6 +327,8 @@ import { GoogleTranslateComponent } from './components/google/google-translate/g
     GoogleRecaptchaComponent,
     GoogleFontComponent,
     GoogleTranslateComponent,
+    MmenuComponent,
+    SlickSliderComponent,
     // Data Security - import
 
     // Directives

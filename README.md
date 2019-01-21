@@ -357,6 +357,14 @@ npm install
 |overcolor       |bgcolor               |bgcolor               |                      |
 |overbgcolor     |                      |                      |                      |
 
+#### plugins
+
+|mmenu    |slick-slider |
+|---------|-------------|
+|ver      |ver          |
+|options  |options      |
+|id       |element      |
+
 #### Popover
 
 |popover      |
