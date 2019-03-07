@@ -55,6 +55,15 @@
   <skillbar text="Web Development" width="95" bgcolor="#41a441"></skillbar>
 </div>
 <partingline orientation="horizontal"></partingline>
+<div id="custom">
+  <h2>Sidenavigation</h2>
+  <sidenavigation>
+    <div class="list" *ngFor="let list of nav">
+      <a href="{{list.url}}">{{list.text}}</a>
+    </div>
+  </sidenavigation>
+</div>
+<partingline orientation="horizontal"></partingline>
 <div id="filter">
   <h2>Filter</h2>
   <input [(ngModel)]="searchtext" />

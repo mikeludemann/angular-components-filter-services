@@ -16,6 +16,11 @@ export class AppComponent {
     'Chris',
     'Tina Maria'
   ];
+  nav = [
+    { id: 1, text: 'Hello', url: '#' },
+    { id: 2, text: 'Morning', url: '#top' },
+    { id: 3, text: 'Evening', url: '#test' }
+  ];
 
   sum: number = 0;
 
