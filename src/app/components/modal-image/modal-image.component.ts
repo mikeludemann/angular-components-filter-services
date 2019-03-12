@@ -20,14 +20,15 @@ export class ModalImageComponent implements OnInit {
 	ngOnInit() {
 
     let main = this.el.nativeElement;
-		let body = document.getElementsByTagName('body')[0];
+    let body = document.getElementsByTagName('body')[0];
+
     let dw = document || window;
 
 		dw.addEventListener("click", function (event) {
 
-			if (event.target == main.children[1]) {
+			if (event.target == main.nextSibling) {
 
-				main.children[1].style.display = "none";
+				main.nextSibling.style.display = "none";
 				body.style.overflow = '';
 
 			}
@@ -41,7 +42,7 @@ export class ModalImageComponent implements OnInit {
     let main = this.el.nativeElement;
 		let body = document.getElementsByTagName('body')[0];
     
-    main.children[1].style.display = "block";
+    main.nextSibling.style.display = "block";
     body.style.overflow = "hidden";
 
   }
@@ -51,7 +52,7 @@ export class ModalImageComponent implements OnInit {
     let main = this.el.nativeElement;
 		let body = document.getElementsByTagName('body')[0];
     
-    main.children[1].style.display = "none";
+    main.nextSibling.style.display = "none";
     body.style.overflow = "";
 
   }

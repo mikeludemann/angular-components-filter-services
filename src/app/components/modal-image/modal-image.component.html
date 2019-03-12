@@ -2,11 +2,11 @@
 	<div [attr.id]="id" class="main-container">
 		<img [attr.src]="url" [attr.alt]="alttext"/>
 	</div>
-	<div id="modal-image-container" class="modal">
-    <div>
-      <span id="close-modal" class="modal-close" (click)="close()">&times;</span>
-    </div>
-		<img class="modal-content" [attr.src]="url"/>
-		<div class="modal-text">{{this.alttext}}</div>
-	</div>
+</div>
+<div id="modal-image-container" class="modal">
+	<img class="modal-content" [attr.src]="url"/>
+	<div class="modal-text">{{this.alttext}}</div>
+		<div class="modal-close" (click)="close()">
+			<span id="close-modal">&times;</span>
+		</div>
 </div>
