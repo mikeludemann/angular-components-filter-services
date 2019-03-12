@@ -7,54 +7,52 @@ import { Component, OnInit, Input, ViewChild, ElementRef } from '@angular/core';
 })
 export class ModalImageComponent implements OnInit {
 
-  @Input() ngStyle: { [key: string]: string; }
+	@Input() ngStyle: { [key: string]: string; }
 
-  @Input() id: string;
-  @Input() url: string;
-  @Input() alttext: string;
+	@Input() id: string;
+	@Input() url: string;
+	@Input() alttext: string;
 
-  @ViewChild('modalimage') el: ElementRef;
+	@ViewChild('modalimage') el: ElementRef;
 
-  constructor() { }
+	constructor() { }
 
-  ngOnInit() {
+	ngOnInit() {
 
     let main = this.el.nativeElement;
-
-    let modal = document.getElementById('modal-image-container');
-    let body = document.getElementsByTagName('body')[0];
-
-    let container = document.getElementById(this.id);
-    let close = document.getElementById("close");
-
-    container.onclick = function(){
-
-        modal.style.display = "block";
-        body.style.overflow = "hidden";
-        modal.children[1].setAttribute("src", main.children[0].src);
-        modal.children[2].innerHTML = main.children[0].alt;
-
-    }
-
-    close.onclick = function() { 
-
-        modal.style.display = "none";
-        body.style.overflow = '';
-
-    }
-
+		let body = document.getElementsByTagName('body')[0];
     let dw = document || window;
 
-    dw.addEventListener("click", function (event) {
+		dw.addEventListener("click", function (event) {
 
-        if (event.target == modal) {
+			if (event.target == main.children[1]) {
 
-            modal.style.display = "none";
-            body.style.overflow = '';
+				main.children[1].style.display = "none";
+				body.style.overflow = '';
 
-        }
+			}
 
     });
+    
+  }
+  
+  open(){
+
+    let main = this.el.nativeElement;
+		let body = document.getElementsByTagName('body')[0];
+    
+    main.children[1].style.display = "block";
+    body.style.overflow = "hidden";
+
+  }
+  
+  close(){
+    
+    let main = this.el.nativeElement;
+		let body = document.getElementsByTagName('body')[0];
+    
+    main.children[1].style.display = "none";
+    body.style.overflow = "";
 
   }
 
