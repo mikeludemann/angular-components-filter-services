@@ -4,6 +4,9 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+/* Routing */
+import { AppRoutingModule } from './app-routing.module';
+
 /* Services */
 import { CalculateService } from './services/calculate.service';
 import { DatetimeService } from './services/datetime.service';
@@ -342,6 +345,7 @@ import { SlickSliderComponent } from './components/plugins/slick-slider/slick-sl
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     FormsModule,
     HttpModule,
     PipesModule

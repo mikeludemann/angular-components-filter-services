@@ -1,0 +1,25 @@
+<div class="container--home">
+	<h1>Home</h1>
+	<button (click)="openModal('first--modal')">Open Modal 1</button>
+	<button (click)="openModal('second--modal')">Open Modal 2</button>
+</div>
+
+<modal id="first--modal">
+	<div class="modal">
+		<div class="modal-body">
+			<h1>A Custom Modal!</h1>
+			<button (click)="closeModal('first--modal');">Close</button>
+		</div>
+	</div>
+	<div class="modal-background"></div>
+</modal>
+
+<modal id="second--modal">
+	<div class="modal">
+		<div class="modal-body">
+			<h1 style="height:1000px">Another Custom Modal!</h1>
+			<button (click)="closeModal('second--modal');">Close</button>
+		</div>
+	</div>
+	<div class="modal-background"></div>
+</modal>

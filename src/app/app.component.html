@@ -1,6 +1,12 @@
 <h1 underline bgcolor="green" colorType="white" sizeType="24px" familyType="Arial" positionText="left">
   {{title}}
 </h1>
+<nav>
+  <a class="navi" routerLink="/start" routerLinkActive="active">Home</a>
+  <a class="navi" routerLink="/error" routerLinkActive="active">???</a>
+</nav>
+
+<router-outlet></router-outlet>
 <partingline orientation="horizontal"></partingline>
 <div id="components">
   <h2>Components</h2>
