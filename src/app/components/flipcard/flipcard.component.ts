@@ -3,7 +3,7 @@ import { Component, OnInit, Input, ViewChild, ElementRef } from '@angular/core';
 @Component({
 	selector: 'flipcard',
 	templateUrl: './flipcard.component.html',
-	styleUrls: ['./flipcard.component.scss']
+	styleUrls: ['./flipcard.component.css']
 })
 export class FlipcardComponent implements OnInit {
 
