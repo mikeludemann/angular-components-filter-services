@@ -22,6 +22,8 @@ export class GoogleChartsComponent implements OnInit {
 
 	ngAfterViewInit() {
 
+    const google: any = window.google;
+
     google.charts.load('current', this.settings);
     google.charts.setOnLoadCallback(drawChart);
     
@@ -42,3 +44,6 @@ export class GoogleChartsComponent implements OnInit {
 	}
 
 }
+
+// Prerequisite: Script File
+// https://www.gstatic.com/charts/loader.js
