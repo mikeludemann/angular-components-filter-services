@@ -1,0 +1,19 @@
+<div #profile class="card--profile" [ngStyle]="card">
+	<div class="image--profile" [ngStyle]="container">
+		<img [attr.src]="imageurl" [attr.alt]="imagetext" [ngStyle]="image"/>
+	</div>
+	<div class="fullname--profile" [ngStyle]="container">
+		<h1>{{this.firstname + " " + this.lastname}}</h1>
+	</div>
+	<div class="jobtitle--profile" [ngStyle]="container">
+		<p class="title" [ngStyle]={title}>{{this.jobtitle}}</p>
+	</div>
+	<div class="employer--profile" [ngStyle]="container">
+		<p>{{this.employer}}</p>
+	</div>
+	<div class="contact--profile" (mouseover)="animate(0.7)" (mouseout)="animate(1.0)">
+		<div [ngStyle]={button}>
+			<a [attr.href]='"mailto:" + this.email' [ngStyle]="link">Contact</a>
+		</div>
+	</div>
+</div>

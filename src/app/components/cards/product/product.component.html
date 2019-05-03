@@ -1,0 +1,16 @@
+<div #product class="card--product" [ngStyle]="card">
+	<div class="image--product" [ngStyle]="container">
+		<img [attr.src]="imageurl" [attr.alt]="imagetext" [ngStyle]="image"/>
+	</div>
+	<div class="producttitle--product" [ngStyle]="container">
+		<p class="title" [ngStyle]={title}>{{this.producttitle}}</p>
+	</div>
+	<div class="price--product" [ngStyle]="container">
+		<p>{{this.price}}</p>
+	</div>
+	<div class="add--product" (mouseover)="animate(0.7)" (mouseout)="animate(1.0)">
+		<div [ngStyle]={button}>
+			<a [attr.href]='#' [ngStyle]="link">Add to Cart</a>
+		</div>
+	</div>
+</div>
