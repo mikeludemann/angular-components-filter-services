@@ -1,0 +1,21 @@
+<div #lightbox class="main">
+  <div class="row">
+    <template ngFor [ngForOf]="images" let-images>
+      <div #column class="column">
+        <img :src="images.source" class="hover-shadow cursor"/>
+      </div>
+    </template>
+  </div>
+  <div id="lightbox" class="modal">
+    <span class="close cursor">&times;</span>
+    <div class="modal-content">
+      <template ngFor [ngForOf]="images" let-images>
+        <div class="mySlides">
+          <img :src="images.source"/>
+        </div>
+      </template>
+      <a #prev id="prev" [ngStyle]="prev" (mouseover)="handleVisiblePrev(1)" (mouseout)="handleVisiblePrev(0)">&#10094;</a>
+      <a #next id="next" [ngStyle]="next" (mouseover)="handleVisibleNext(1)" (mouseout)="handleVisibleNext(0)">&#10095;</a>
+    </div>
+  </div>
+</div>

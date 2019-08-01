@@ -1,0 +1,9 @@
+<div #carousel class="container--slider" [ngStyle]="container">
+  <template ngFor [ngForOf]="images" let-images>
+    <div class="slider--element" [ngStyle]="sliderElement">
+      <img :src="images.source"/>
+    </div>
+  </template>
+  <a #prev id="prev" [ngStyle]="prev" (mouseover)="handleVisiblePrev(1)" (mouseout)="handleVisiblePrev(0)">&#10094;</a>
+  <a #next id="next" [ngStyle]="next" (mouseover)="handleVisibleNext(1)" (mouseout)="handleVisibleNext(0)">&#10095;</a>
+</div>
